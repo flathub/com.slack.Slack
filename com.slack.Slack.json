@@ -1,6 +1,7 @@
 {
     "app-id": "com.slack.Slack",
     "base": "io.atom.electron.BaseApp",
+        "base-version": "stable",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
@@ -13,7 +14,7 @@
         "--device=dri",
         "--filesystem=home",
         "--talk-name=org.freedesktop.Notifications",
-        "--extra-data=slack.deb:389f8ed8a044436cd2f7bdc777464af055ac2106587dd68ec4023cd6cd6cc5a8:51257254::https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.1-amd64.deb"
+        "--extra-data=slack.deb:75661e19efc7c9760f481a9688e5d6e24a2bdc830bda60ca5ec9876a64fc2f05:51257834::https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.2-amd64.deb"
     ],
     "modules": [
         {
