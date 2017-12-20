@@ -13,8 +13,7 @@
         "--share=network",
         "--device=dri",
         "--filesystem=home",
-        "--talk-name=org.freedesktop.Notifications",
-        "--extra-data=slack.deb:7c76ed7fd31828531a516c69ca7df660ec72a491aee9a685dc7980997a18189e:55567506::https://downloads.slack-edge.com/linux_releases/slack-desktop-3.0.0-amd64.deb"
+        "--talk-name=org.freedesktop.Notifications"
     ],
     "modules": [
         {
@@ -66,6 +65,14 @@
                 {
                     "type": "file",
                     "path": "com.slack.Slack.appdata.xml"
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "slack.deb",
+                    "only-arches": ["x86_64"],
+                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.0.0-amd64.deb",
+                    "sha256": "0583b70098c55346a3218754d29055119209e1e5f61b2b4bbe2b6ffdc9e27af0",
+                    "size": 55654542
                 }
             ]
         }
