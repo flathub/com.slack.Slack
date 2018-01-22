@@ -70,9 +70,9 @@
                     "type": "extra-data",
                     "filename": "slack.deb",
                     "only-arches": ["x86_64"],
-                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.0.2-amd64.deb",
-                    "sha256": "0583b70098c55346a3218754d29055119209e1e5f61b2b4bbe2b6ffdc9e27af0",
-                    "size": 55654542
+                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.0.5-amd64.deb",
+                    "sha256": "1a49e8e83d950b517a5921c5780ddd19e5a9b1ec7787bc1fd8e5b214422d358e",
+                    "size": 55664624
                 }
             ]
         }
