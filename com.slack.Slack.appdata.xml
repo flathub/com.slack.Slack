@@ -23,6 +23,10 @@
       <image type="source">https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.slack.Slack/C/com.slack.slack-screenshot2.jpg</image>
     </screenshot>
   </screenshots>
+  <categories>
+    <category>InstantMessaging</category>
+    <category>Network</category>
+  </categories>
   <releases>
     <release date="2018-01-22" version="3.0.5"/>
   </releases>
