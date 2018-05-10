@@ -17,6 +17,42 @@
     ],
     "modules": [
         {
+            "name": "gyp",
+            "buildsystem": "simple",
+            "cleanup": [ "*" ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://chromium.googlesource.com/external/gyp",
+                    "commit": "324dd166b7c0b39d513026fa52d6280ac6d56770"
+                }
+            ],
+            "build-commands": [
+                "python2 setup.py install --prefix=/app"
+            ]
+        },
+        /* Spotify needs a new nss */
+        {
+            "name": "nss",
+            "buildsystem": "simple",
+            "subdir": "nss",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_36_1_RTM/src/nss-3.36.1.tar.gz",
+                    "sha256": "6025441d528ff6a7f1a4b673b6ee7d3540731ada3f78d5acd5c3b3736b222bff"
+                },
+                {
+                    "type": "patch",
+                    "path": "gyp-no-parallel.patch"
+                }
+            ],
+            "build-commands": [
+                "./build.sh --system-sqlite --system-nspr --enable-libpkix --disable-tests -v -o",
+                "install -D ../dist/Release/lib/*.so /app/lib"
+            ]
+        },
+        {
           "name": "xkbfile",
           "cleanup": ["/include", "/lib/*.la", "/lib/pkgconfig"],
           "config-opts": ["--disable-static"],
@@ -70,9 +106,9 @@
                     "type": "extra-data",
                     "filename": "slack.deb",
                     "only-arches": ["x86_64"],
-                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.1.1-amd64.deb",
-                    "sha256": "a966e446d3e5a5ab2373fcd29afddd720cdfe47438009d1086ee532fab884c37",
-                    "size": 60320286
+                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.2.0-beta25a7a50e-amd64.deb",
+                    "sha256": "0497794a7f0e5ac00a9421e6b1875dcc576ed93efc4a7d8c6465db641c234064",
+                    "size": 57959130
                 }
             ]
         }
