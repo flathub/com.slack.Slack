@@ -14,6 +14,8 @@
     including files, conversations, and people, so it's easy to stay organized.
     Integration with several third-party services allows use of their
       features directly within your Slack discussions.</p>
+    <p>NOTE: This wrapper is not verified by, affiliated with, or
+    supported by Slack Technologies, Inc.</p>
   </description>
   <screenshots>
     <screenshot>
