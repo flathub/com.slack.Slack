@@ -32,9 +32,8 @@
   <releases>
     <release date="2018-05-08" version="3.2.0-beta.2"/>
   </releases>
-  <!-- These are the icons for the android apps, from https://play.google.com/store/apps/details?id=com.Slack -->
-  <icon type="remote" height="64" width="64">https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w64</icon>
-  <icon type="remote" height="128" width="128">https://lh3.googleusercontent.com/Dq-mZ5mmdE6aFPeD61DNlVTwYSI75UwHBYDq_BxBZOMSzCBnQ5OCC4-LjfP42tDlyw=w128</icon>
+  <!-- This is the app icon from the slack branfolder: https://brandfolder.com/slack -->
+  <icon type="remote" height="1024" width="1024">https://assets.brandfolder.com/osogig-6gybeo-1fxfn9/original/Slack%20App%20Icon.png</icon>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
