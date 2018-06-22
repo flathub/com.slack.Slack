@@ -1,6 +1,6 @@
 {
     "app-id": "com.slack.Slack",
-    "base": "io.atom.electron.BaseApp",
+    "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "stable",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "1.6",
@@ -20,18 +20,6 @@
         "--talk-name=org.freedesktop.Notifications"
     ],
     "modules": [
-        {
-          "name": "xkbfile",
-          "cleanup": ["/include", "/lib/*.la", "/lib/pkgconfig"],
-          "config-opts": ["--disable-static"],
-          "sources": [
-            {
-              "type": "archive",
-              "url": "https://www.x.org/releases/individual/lib/libxkbfile-1.0.9.tar.bz2",
-              "sha256": "51817e0530961975d9513b773960b4edd275f7d5c72293d5a151ed4f42aeb16a"
-            }
-          ]
-        },
         {
             "name": "slack",
             "buildsystem": "simple",
