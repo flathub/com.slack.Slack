@@ -3,7 +3,7 @@
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "stable",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
+    "runtime-version": "unstable",
     "sdk": "org.freedesktop.Sdk",
     "command": "slack",
     "separate-locales": false,
@@ -30,7 +30,7 @@
                 "install slack.sh /app/bin/slack",
                 "install -Dm644 com.slack.Slack.appdata.xml /app/share/appdata/com.slack.Slack.appdata.xml",
                 "cp /usr/bin/ar /app/bin",
-                "cp /usr/lib/libbfd-*.so /app/lib"
+                "ARCH_TRIPLE=$(gcc --print-multiarch) && cp /usr/lib/${ARCH_TRIPLE}/libbfd-*.so /app/lib"
             ],
             "sources" : [
                 {
