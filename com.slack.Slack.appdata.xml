@@ -30,8 +30,25 @@
     <category>Network</category>
   </categories>
   <releases>
-    <release date="2018-08-31" version="3.3.1"/>
-    <release date="2018-05-31" version="3.2.1"/>
+    <release date="2018-08-31" version="3.3.1">
+      <description>
+      <ul>
+        <li>Overall, stability has been improved, thanks to a veritable bevy of bugfixes. </li>
+        <li>It's so very useful when you report issues that we've tweaked the diagnostics that collect reports so that we can get to them, and to things being better for you, sooner. </li>
+        <li>There was an annoying flickering caused by the color profiles having been updated in 3.2.0. There is, as far as we can tell, no more flicker.</li>
+        <li>When you download something, we will now more dependably tell you so.</li>
+        <li>Duplicate windows were leading to dubious repetitious notifications if multiple instances of the aforementioned were open simultaneously. We've fixed them so that the overt duplicity of multiplicities no longer incurs incongruity. TL;DR: No more doublespeak. If you have multiple windows open, you'll now only be notified once. </li>
+        <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
+      </ul>
+      </description>
+    </release>
+    <release date="2018-05-31" version="3.2.1">
+      <description>
+      <ul>
+        <li>If you use Red Hat, you now have spell check. For other distros, you have a new and different spellchecker. Hopefully it is better at detecting what language you are writing in. Hopefully.</li>
+      </ul>
+      </description>
+    </release>
     <release date="2018-05-08" version="3.2.0-beta.2"/>
   </releases>
   <!-- This is the app icon from the slack brandfolder: https://brandfolder.com/slack -->
