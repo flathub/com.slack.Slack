@@ -30,6 +30,13 @@
     <category>Network</category>
   </categories>
   <releases>
+  <release date="2018-10-02" version="3.3.3">
+      <description>
+      <ul>
+        <li>All updates are important, of course. This one contains security updates, and as we know, they’re the most important kind of all.</li>
+      </ul>
+      </description>
+    </release>
     <release date="2018-08-31" version="3.3.1">
       <description>
       <ul>
@@ -49,7 +56,6 @@
       </ul>
       </description>
     </release>
-    <release date="2018-05-08" version="3.2.0-beta.2"/>
   </releases>
   <!-- This is the app icon from the slack brandfolder: https://brandfolder.com/slack -->
   <icon type="remote" height="1024" width="1024">https://assets.brandfolder.com/osogig-6gybeo-1fxfn9/original/Slack%20App%20Icon.png</icon>
