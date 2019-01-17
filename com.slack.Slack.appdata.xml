@@ -19,10 +19,7 @@
   </description>
   <screenshots>
     <screenshot>
-      <image type="source">https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.slack.Slack/C/com.slack.slack-screenshot1.jpg</image>
-    </screenshot>
-    <screenshot>
-      <image type="source">https://d3lapyynmdp1i9.cloudfront.net/screenshots/com.slack.Slack/C/com.slack.slack-screenshot2.jpg</image>
+      <image type="source">https://assets.brandfolder.com/pl54qq-1w51ew-23bduy/original/Linux%20-%20English.png</image>
     </screenshot>
   </screenshots>
   <categories>
@@ -30,7 +27,25 @@
     <category>Network</category>
   </categories>
   <releases>
-  <release date="2018-10-02" version="3.3.3">
+    <release date="2019-01-16" version="3.3.7">
+      <description>
+      <p>What’s New</p>
+      <ul>
+        <li>From today, you'll notice a shiny new app button that matches our new logo. You can read more about it on our blog at SlackHQ.com. Change! Everyone loves it. (Having said that, nothing about Slack or how you use it has changed. Just the button.)</li>
+      </ul>		
+      <p>Bug Fixes</p>
+      <ul>
+        <li>Users signing in with Single Sign-On would see the same message twice when logging in.</li>
+        <li>Users signing in with Single Sign-On would see the same message twice when logging in. This will not happen any more.</li>
+	<li>When trying to select a portion of a code-formatted block of text (text formatted with ` or ``` at either end), some characters were proving slippery and hard to select. No more.</li>
+	<li>The desktop app was not playing nicely with the glibc 2.28. If you were experiencing a segfault, you should segfault no more. It's better now.</li>
+	<li>The full screen shortcut was mistakenly listed as ‘Ctrl+F’ instead of ‘Ctrl+Shift+F’ in the "View" menu. We both apologize for this and also hope that, because of it, someone out there discovered 'Ctrl+F' is a useful shortcut for searching the channel that you're in. Always look on the bright side of bugs.
+</li>
+      </ul>
+      </description>
+    </release>
+
+    <release date="2018-10-02" version="3.3.3">
       <description>
       <ul>
         <li>All updates are important, of course. This one contains security updates, and as we know, they’re the most important kind of all.</li>
@@ -58,7 +73,7 @@
     </release>
   </releases>
   <!-- This is the app icon from the slack brandfolder: https://brandfolder.com/slack -->
-  <icon type="remote" height="1024" width="1024">https://assets.brandfolder.com/osogig-6gybeo-1fxfn9/original/Slack%20App%20Icon.png</icon>
+  <icon type="remote" height="1024" width="1024">https://assets.brandfolder.com/pl546j-7le8zk-afym5u/original/Slack_Mark_Web.png</icon>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
