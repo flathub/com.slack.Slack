@@ -7,18 +7,19 @@
   <summary>Chat with your team</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://slack.com</url>
+  <url type="help">https://get.slack.help</url>
   <description>
     <p>Slack offers chat rooms organized by topic, private groups,
     and direct messaging capabilities to facilitate conversation and help
     your team get things done. All content inside Slack is searchable,
     including files, conversations, and people, so it's easy to stay organized.
     Integration with several third-party services allows use of their
-      features directly within your Slack discussions.</p>
+    features directly within your Slack discussions.</p>
     <p>NOTE: This wrapper is not verified by, affiliated with, or
     supported by Slack Technologies, Inc.</p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">https://assets.brandfolder.com/pl54qq-1w51ew-23bduy/original/Linux%20-%20English.png</image>
     </screenshot>
   </screenshots>
@@ -32,15 +33,14 @@
       <p>What’s New</p>
       <ul>
         <li>From today, you'll notice a shiny new app button that matches our new logo. You can read more about it on our blog at SlackHQ.com. Change! Everyone loves it. (Having said that, nothing about Slack or how you use it has changed. Just the button.)</li>
-      </ul>		
+      </ul>
       <p>Bug Fixes</p>
       <ul>
         <li>Users signing in with Single Sign-On would see the same message twice when logging in.</li>
         <li>Users signing in with Single Sign-On would see the same message twice when logging in. This will not happen any more.</li>
-	<li>When trying to select a portion of a code-formatted block of text (text formatted with ` or ``` at either end), some characters were proving slippery and hard to select. No more.</li>
-	<li>The desktop app was not playing nicely with the glibc 2.28. If you were experiencing a segfault, you should segfault no more. It's better now.</li>
-	<li>The full screen shortcut was mistakenly listed as ‘Ctrl+F’ instead of ‘Ctrl+Shift+F’ in the "View" menu. We both apologize for this and also hope that, because of it, someone out there discovered 'Ctrl+F' is a useful shortcut for searching the channel that you're in. Always look on the bright side of bugs.
-</li>
+      	<li>When trying to select a portion of a code-formatted block of text (text formatted with ` or ``` at either end), some characters were proving slippery and hard to select. No more.</li>
+      	<li>The desktop app was not playing nicely with the glibc 2.28. If you were experiencing a segfault, you should segfault no more. It's better now.</li>
+      	<li>The full screen shortcut was mistakenly listed as ‘Ctrl+F’ instead of ‘Ctrl+Shift+F’ in the "View" menu. We both apologize for this and also hope that, because of it, someone out there discovered 'Ctrl+F' is a useful shortcut for searching the channel that you're in. Always look on the bright side of bugs.</li>
       </ul>
       </description>
     </release>
@@ -75,26 +75,10 @@
   <!-- This is the app icon from the slack brandfolder: https://brandfolder.com/slack -->
   <icon type="remote" height="1024" width="1024">https://assets.brandfolder.com/pl546j-7le8zk-afym5u/original/Slack_Mark_Web.png</icon>
   <content_rating type="oars-1.0">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="violence-fantasy">none</content_attribute>
-    <content_attribute id="violence-realistic">none</content_attribute>
-    <content_attribute id="violence-bloodshed">none</content_attribute>
-    <content_attribute id="violence-sexual">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="drugs-narcotics">none</content_attribute>
-    <content_attribute id="drugs-tobacco">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="sex-themes">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="language-humor">none</content_attribute>
-    <content_attribute id="language-discrimination">none</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>
     <content_attribute id="social-info">intense</content_attribute>
     <content_attribute id="social-audio">intense</content_attribute>
-    <content_attribute id="social-location">none</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <update_contact>cosimoc_at_gnome.org</update_contact>
 </component>
