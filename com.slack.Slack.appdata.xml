@@ -27,6 +27,21 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-03-12" version="3.3.8">
+      <description>
+      <p>What’s New</p>
+      <ul>
+        <li>When you sign in, you'll now sign in through the browser rather than within the app.</li>
+      </ul>		
+      <p>Bug Fixes</p>
+      <ul>
+        <li>The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
+        <li>Occasionally, the "Open the Slack App" browser button was not opening the workspace in the desktop app. Silly, really. It now does.</li>
+	<li>If you use SSO (Single Sign-on) to log in, it should now work perfectly every time.</li>
+      </ul>
+      </description>
+    </release>
+
     <release date="2019-01-16" version="3.3.7">
       <description>
       <p>What’s New</p>
