@@ -28,6 +28,18 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-04-18" version="3.4.0">
+      <description>
+      <p>Bug Fixes</p>
+      <ul>
+        <li>Launch (and Hide) on Login have been improved and are now just … better.The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
+        <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that.</li>
+        <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that. In Slack.</li>
+        <li>Some teams were experiencing an issue where icons that belonged to other signed-in teams were showing up rather than their own. This was deeply confusing. Sorry about that.</li>
+        <li>Unhelpful keyboard and cursor actions that some people were experiencing have now, thankfully, been fixed.</li>
+      </ul>
+      </description>
+    </release>
     <release date="2019-03-12" version="3.3.8">
       <description>
       <p>What’s New</p>
