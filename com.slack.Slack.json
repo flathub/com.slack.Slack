@@ -26,11 +26,12 @@
             "name": "slack",
             "buildsystem": "simple",
             "build-commands": [
-                "install apply_extra /app/bin",
-                "install slack.sh /app/bin/slack",
-                "install -Dm644 com.slack.Slack.appdata.xml /app/share/appdata/com.slack.Slack.appdata.xml",
-                "cp /usr/bin/ar /app/bin",
-                "ARCH_TRIPLE=$(gcc --print-multiarch) && cp /usr/lib/${ARCH_TRIPLE}/libbfd-*.so /app/lib"
+                "install apply_extra ${FLATPAK_DEST}/bin",
+                "install slack.sh ${FLATPAK_DEST}/bin/slack",
+                "install -Dm644 com.slack.Slack.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml",
+                "install -Dm644 slack.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
+                "cp /usr/bin/ar ${FLATPAK_DEST}/bin",
+                "ARCH_TRIPLE=$(gcc --print-multiarch) && cp /usr/lib/${ARCH_TRIPLE}/libbfd-*.so ${FLATPAK_DEST}/lib"
             ],
             "sources" : [
                 {
@@ -46,9 +47,7 @@
                         "rmdir usr",
                         "mkdir -p export/share/applications",
                         "sed 's|Icon=/usr/share/pixmaps/slack.png|Icon=com.slack.Slack|; s|Exec=/usr/bin/slack|Exec=slack|' share/applications/slack.desktop > export/share/applications/com.slack.Slack.desktop",
-                        "echo StartupWMClass=Slack >> export/share/applications/com.slack.Slack.desktop",
-                        "mkdir -p export/share/icons/hicolor/512x512/apps",
-                        "cp share/pixmaps/slack.png export/share/icons/hicolor/512x512/apps/com.slack.Slack.png"
+                        "echo StartupWMClass=Slack >> export/share/applications/com.slack.Slack.desktop"
                     ]
                 },
                 {
@@ -61,12 +60,16 @@
                     "path": "com.slack.Slack.appdata.xml"
                 },
                 {
+                    "type": "file",
+                    "path": "slack.png"
+                },
+                {
                     "type": "extra-data",
                     "filename": "slack.deb",
                     "only-arches": ["x86_64"],
-                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.4.0-amd64.deb",
-                    "sha256": "857b38862aa732a27c1cee5fcfdce490d624f22a5d8b4fd389d7ad06de1ba551",
-                    "size": 56807282
+                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-3.4.2-amd64.deb",
+                    "sha256": "3833c1abdbd15b50d9f3e4f77deb4bf6d578cfebfeab2b6ee0e84f567d207261",
+                    "size": 62724122
                 }
             ]
         }

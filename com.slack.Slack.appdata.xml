@@ -28,6 +28,17 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-05-23" version="3.4.2">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Just as day follows night and winter gives way to spring, so have we updated Electron to 4.2.1</li>
+          <li>The push notification time between desktop and mobile has been changed for the better</li>
+          <li>Like stability? Us too. So we tweaked things, and now everything is more stable. In our app</li>
+          <li>We've updated the RPM icon dependency for a better availability &amp; icon experience. Because you're worth it</li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-04-18" version="3.4.0">
       <description>
       <p>Bug Fixes</p>
@@ -97,8 +108,6 @@
       </description>
     </release>
   </releases>
-  <!-- This is the app icon from the slack brandfolder: https://brandfolder.com/slack -->
-  <icon type="remote" height="1024" width="1024">https://assets.brandfolder.com/pl546j-7le8zk-afym5u/original/Slack_Mark_Web.png</icon>
   <content_rating type="oars-1.0">
     <content_attribute id="social-chat">intense</content_attribute>
     <content_attribute id="social-info">intense</content_attribute>
