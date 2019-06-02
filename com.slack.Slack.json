@@ -11,6 +11,7 @@
         "--share=ipc", "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
+        /* Webcam support */
         "--device=all",
         "--filesystem=home",
         "--filesystem=xdg-run/dconf", 

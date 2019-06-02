@@ -4,4 +4,5 @@
 /data.tar.*
 /control.tar.*
 /debian-binary
+build
 slack-desktop-*.deb
