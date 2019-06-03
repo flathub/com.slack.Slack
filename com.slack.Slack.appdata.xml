@@ -30,81 +30,81 @@
   <releases>
     <release date="2019-05-23" version="3.4.2">
       <description>
-        <p>Bug Fixes</p>
+        <p>Bug Fixes:</p>
         <ul>
           <li>Just as day follows night and winter gives way to spring, so have we updated Electron to 4.2.1</li>
           <li>The push notification time between desktop and mobile has been changed for the better</li>
-          <li>Like stability? Us too. So we tweaked things, and now everything is more stable. In our app</li>
-          <li>We've updated the RPM icon dependency for a better availability &amp; icon experience. Because you're worth it</li>
+          <li>Like stability? Us too. So we tweaked things, and now everything is more stable. In our app.</li>
+          <li>We've updated the RPM icon dependency for a better availability &amp; icon experience. Because you're worth it.</li>
         </ul>
       </description>
     </release>
     <release date="2019-04-18" version="3.4.0">
       <description>
-      <p>Bug Fixes</p>
-      <ul>
-        <li>Launch (and Hide) on Login have been improved and are now just … better.The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
-        <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that.</li>
-        <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that. In Slack.</li>
-        <li>Some teams were experiencing an issue where icons that belonged to other signed-in teams were showing up rather than their own. This was deeply confusing. Sorry about that.</li>
-        <li>Unhelpful keyboard and cursor actions that some people were experiencing have now, thankfully, been fixed.</li>
-      </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Launch (and Hide) on Login have been improved and are now just … better.The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
+          <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that.</li>
+          <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that. In Slack.</li>
+          <li>Some teams were experiencing an issue where icons that belonged to other signed-in teams were showing up rather than their own. This was deeply confusing. Sorry about that.</li>
+          <li>Unhelpful keyboard and cursor actions that some people were experiencing have now, thankfully, been fixed</li>
+        </ul>
       </description>
     </release>
     <release date="2019-03-12" version="3.3.8">
       <description>
-      <p>What’s New</p>
-      <ul>
-        <li>When you sign in, you'll now sign in through the browser rather than within the app.</li>
-      </ul>		
-      <p>Bug Fixes</p>
-      <ul>
-        <li>The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
-        <li>Occasionally, the "Open the Slack App" browser button was not opening the workspace in the desktop app. Silly, really. It now does.</li>
-	<li>If you use SSO (Single Sign-on) to log in, it should now work perfectly every time.</li>
-      </ul>
+        <p>What’s New:</p>
+        <ul>
+          <li>When you sign in, you'll now sign in through the browser rather than within the app</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
+          <li>Occasionally, the "Open the Slack App" browser button was not opening the workspace in the desktop app. Silly, really. It now does.</li>
+          <li>If you use SSO (Single Sign-on) to log in, it should now work perfectly every time</li>
+        </ul>
       </description>
     </release>
     <release date="2019-01-16" version="3.3.7">
       <description>
-      <p>What’s New</p>
-      <ul>
-        <li>From today, you'll notice a shiny new app button that matches our new logo. You can read more about it on our blog at SlackHQ.com. Change! Everyone loves it. (Having said that, nothing about Slack or how you use it has changed. Just the button.)</li>
-      </ul>
-      <p>Bug Fixes</p>
-      <ul>
-        <li>Users signing in with Single Sign-On would see the same message twice when logging in.</li>
-        <li>Users signing in with Single Sign-On would see the same message twice when logging in. This will not happen any more.</li>
-      	<li>When trying to select a portion of a code-formatted block of text (text formatted with ` or ``` at either end), some characters were proving slippery and hard to select. No more.</li>
-      	<li>The desktop app was not playing nicely with the glibc 2.28. If you were experiencing a segfault, you should segfault no more. It's better now.</li>
-      	<li>The full screen shortcut was mistakenly listed as ‘Ctrl+F’ instead of ‘Ctrl+Shift+F’ in the "View" menu. We both apologize for this and also hope that, because of it, someone out there discovered 'Ctrl+F' is a useful shortcut for searching the channel that you're in. Always look on the bright side of bugs.</li>
-      </ul>
+        <p>What’s New:</p>
+        <ul>
+          <li>From today, you'll notice a shiny new app button that matches our new logo. You can read more about it on our blog at SlackHQ.com. Change! Everyone loves it. (Having said that, nothing about Slack or how you use it has changed. Just the button.)</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Users signing in with Single Sign-On would see the same message twice when logging in</li>
+          <li>Users signing in with Single Sign-On would see the same message twice when logging in. This will not happen any more.</li>
+          <li>When trying to select a portion of a code-formatted block of text (text formatted with ` or ``` at either end), some characters were proving slippery and hard to select. No more.</li>
+          <li>The desktop app was not playing nicely with the glibc 2.28. If you were experiencing a segfault, you should segfault no more. It's better now.</li>
+          <li>The full screen shortcut was mistakenly listed as ‘Ctrl+F’ instead of ‘Ctrl+Shift+F’ in the "View" menu. We both apologize for this and also hope that, because of it, someone out there discovered 'Ctrl+F' is a useful shortcut for searching the channel that you're in. Always look on the bright side of bugs.</li>
+        </ul>
       </description>
     </release>
     <release date="2018-10-02" version="3.3.3">
       <description>
-      <ul>
-        <li>All updates are important, of course. This one contains security updates, and as we know, they’re the most important kind of all.</li>
-      </ul>
+        <ul>
+          <li>All updates are important, of course. This one contains security updates, and as we know, they’re the most important kind of all.</li>
+        </ul>
       </description>
     </release>
     <release date="2018-08-31" version="3.3.1">
       <description>
-      <ul>
-        <li>Overall, stability has been improved, thanks to a veritable bevy of bugfixes. </li>
-        <li>It's so very useful when you report issues that we've tweaked the diagnostics that collect reports so that we can get to them, and to things being better for you, sooner. </li>
-        <li>There was an annoying flickering caused by the color profiles having been updated in 3.2.0. There is, as far as we can tell, no more flicker.</li>
-        <li>When you download something, we will now more dependably tell you so.</li>
-        <li>Duplicate windows were leading to dubious repetitious notifications if multiple instances of the aforementioned were open simultaneously. We've fixed them so that the overt duplicity of multiplicities no longer incurs incongruity. TL;DR: No more doublespeak. If you have multiple windows open, you'll now only be notified once. </li>
-        <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
-      </ul>
+        <ul>
+          <li>Overall, stability has been improved, thanks to a veritable bevy of bugfixes</li>
+          <li>It's so very useful when you report issues that we've tweaked the diagnostics that collect reports so that we can get to them, and to things being better for you, sooner</li>
+          <li>There was an annoying flickering caused by the color profiles having been updated in 3.2.0. There is, as far as we can tell, no more flicker.</li>
+          <li>When you download something, we will now more dependably tell you so</li>
+          <li>Duplicate windows were leading to dubious repetitious notifications if multiple instances of the aforementioned were open simultaneously. We've fixed them so that the overt duplicity of multiplicities no longer incurs incongruity. TL;DR: No more doublespeak. If you have multiple windows open, you'll now only be notified once. </li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
+        </ul>
       </description>
     </release>
     <release date="2018-05-31" version="3.2.1">
       <description>
-      <ul>
-        <li>If you use Red Hat, you now have spell check. For other distros, you have a new and different spellchecker. Hopefully it is better at detecting what language you are writing in. Hopefully.</li>
-      </ul>
+        <ul>
+          <li>If you use Red Hat, you now have spell check. For other distros, you have a new and different spellchecker. Hopefully it is better at detecting what language you are writing in. Hopefully.</li>
+        </ul>
       </description>
     </release>
   </releases>
