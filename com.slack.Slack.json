@@ -31,8 +31,13 @@
                 "install slack.sh ${FLATPAK_DEST}/bin/slack",
                 "install -Dm644 com.slack.Slack.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml",
                 "install -Dm644 slack.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
-                "cp /usr/bin/ar ${FLATPAK_DEST}/bin",
-                "ARCH_TRIPLE=$(gcc --print-multiarch) && cp /usr/lib/${ARCH_TRIPLE}/libbfd-*.so ${FLATPAK_DEST}/lib"
+                "install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"com.slack.Slack\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "desktop-file-edit --set-key=\"Exec\" --set-value=\"slack\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "desktop-file-edit --set-key=\"StartupWMClass\" --set-value=\"Slack\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "desktop-file-edit --set-key=\"X-Flatpak-RenamedFrom\" --set-value=\"slack.desktop;\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "install -Dm755 /usr/bin/ar -t ${FLATPAK_DEST}/bin",
+                "install -Dm755 /usr/lib/$(gcc -print-multiarch)/libbfd-*.so -t ${FLATPAK_DEST}/lib"
             ],
             "sources" : [
                 {
@@ -45,10 +50,7 @@
                         "rm -f control.tar.gz data.tar.xz debian-binary",
                         "mv usr/* .",
                         "chmod -R a-s,go+rX,go-w .",
-                        "rmdir usr",
-                        "mkdir -p export/share/applications",
-                        "sed 's|Icon=/usr/share/pixmaps/slack.png|Icon=com.slack.Slack|; s|Exec=/usr/bin/slack|Exec=slack|' share/applications/slack.desktop > export/share/applications/com.slack.Slack.desktop",
-                        "echo StartupWMClass=Slack >> export/share/applications/com.slack.Slack.desktop"
+                        "rmdir usr"
                     ]
                 },
                 {
@@ -63,6 +65,10 @@
                 {
                     "type": "file",
                     "path": "slack.png"
+                },
+                {
+                    "type": "file",
+                    "path": "slack.desktop"
                 },
                 {
                     "type": "extra-data",
