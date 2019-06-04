@@ -13,7 +13,6 @@
         "--share=network",
         /* Webcam support */
         "--device=all",
-        "--filesystem=xdg-desktop:ro",
         "--filesystem=xdg-documents:ro",
         "--filesystem=xdg-pictures:ro",
         "--filesystem=xdg-music:ro",
