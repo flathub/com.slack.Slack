@@ -4,7 +4,7 @@ The app builds on uses the freedesktop.org runtime and the
 [electron-flatpak-base-app](https://github.com/endlessm/electron-flatpak-base-app).
 You will need both to build the app; they are available for install on Flathub.
 
-#Accessing `$HOME`
+## Accessing `$HOME`
 
 This app is sandboxed for higher security. If you absolutely need `$HOME` access for your Slack on your system, please use either 
 ```sh
