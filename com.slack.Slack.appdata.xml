@@ -28,6 +28,22 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-07-08" version="4.0.0">
+      <description>
+        <p>What’s New:</p>
+        <ul>
+          <li>Slack is now a little faster, thanks to a few small but important changes.</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Drag and dropping files into Slack is now much more stable.</li>
+          <li>If you ever do need to reset the app's data, it now works better. A bit better, at least.</li>
+          <li>We improved team icons alignment in the side bar for those in a lot of workspaces. It's a small thing, but much more aesthetically pleasing.</li>
+          <li>In a Cinnamon desktop environment, the Snap Slack app was missing a dock icon. We found it and put it back where it belongs. (In the dock.)</li>
+          <li>Hardware acceleration can now be turned off without foregrounding Slack. If you know what that means, you'll know it's handy. If you don't — it still is! Carry on. And thank you for reading.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-05-23" version="3.4.2">
       <description>
         <p>Bug Fixes:</p>
