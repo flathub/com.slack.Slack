@@ -28,6 +28,14 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-07-25" version="4.0.1">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-07-08" version="4.0.0">
       <description>
         <p>What’s New:</p>

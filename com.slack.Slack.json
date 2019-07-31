@@ -78,9 +78,9 @@
                     "type": "extra-data",
                     "filename": "slack.deb",
                     "only-arches": ["x86_64"],
-                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.0-amd64.deb",
-                    "sha256": "911a4c05fb4f85181df13f013e82440b0d171862c9cb137dc19b6381d47bd57e",
-                    "size": 61055984
+                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.1-amd64.deb",
+                    "sha256": "6277a6c3d9c1c55813ad4fe1e56702a486ab8ff36ecbef345d1794a3a644ecbc",
+                    "size": 60817898
                 }
             ]
         }
