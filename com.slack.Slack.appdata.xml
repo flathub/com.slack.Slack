@@ -28,6 +28,17 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-08-07" version="4.0.2">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Videos in channels were found to be the cause of a minor (but pesky) memory leak that has now been well and truly plugged.</li>
+          <li>We spruced up the notifications a little so now they'll not only show up every time you need them to, they'll show up looking like whatever theme you wear proudly on your sidebar. Neat.</li>
+          <li>On opening your computer, the app is now, thankfully, more likely to launch properly every time.</li>
+          <li>If you'd become used to opening Slack from a shortcut on your desktop or menu… you'll know that we broke that recently. Sorry about that. It is now unbroken once more. </li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-07-25" version="4.0.1">
       <description>
         <p>Bug Fixes:</p>
