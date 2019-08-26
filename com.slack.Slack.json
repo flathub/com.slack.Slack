@@ -8,17 +8,17 @@
     "command": "slack",
     "separate-locales": false,
     "finish-args": [
-        "--share=ipc", "--socket=x11",
+        "--share=ipc",
+        "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
-        /* Webcam support */
         "--device=all",
         "--filesystem=xdg-documents:ro",
         "--filesystem=xdg-pictures:ro",
         "--filesystem=xdg-music:ro",
         "--filesystem=xdg-videos:ro",
         "--filesystem=xdg-download",
-        "--filesystem=xdg-run/dconf", 
+        "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
         "--talk-name=ca.desrt.dconf",
@@ -43,7 +43,7 @@
                 "install -Dm755 /usr/bin/ar -t ${FLATPAK_DEST}/bin",
                 "install -Dm755 /usr/lib/$(gcc -print-multiarch)/libbfd-*.so -t ${FLATPAK_DEST}/lib"
             ],
-            "sources" : [
+            "sources": [
                 {
                     "type": "script",
                     "dest-filename": "apply_extra",
@@ -60,7 +60,9 @@
                 {
                     "type": "script",
                     "dest-filename": "slack.sh",
-                    "commands": ["exec env TMPDIR=$XDG_CACHE_HOME /app/extra/bin/slack \"$@\""]
+                    "commands": [
+                        "exec env TMPDIR=$XDG_CACHE_HOME /app/extra/bin/slack \"$@\""
+                    ]
                 },
                 {
                     "type": "file",
@@ -77,10 +79,12 @@
                 {
                     "type": "extra-data",
                     "filename": "slack.deb",
-                    "only-arches": ["x86_64"],
+                    "only-arches": [
+                        "x86_64"
+                    ],
                     "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb",
                     "sha256": "75c26004ae56bbb944d4b97347b00bb28ff4042d10666490e7974613fc2d7214",
-                    "size": 60817898
+                    "size": 61298592
                 }
             ]
         }
