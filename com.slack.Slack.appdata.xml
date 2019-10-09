@@ -28,20 +28,6 @@
     <category>Network</category>
   </categories>
   <releases>
-    <release date="2019-10-08" version="4.1.1">
-      <description>
-        <p>What’s New</p>
-        <ul>
-          <li>Thanks to a few tweaks to the engine, a polish of the pistons, and recalibrated valves, the app should be running smoother and faster, than before.</li>	
-          <li>Spellcheck, revamped, is now a much better version of its old self (and back on Linux, to boot) — now it supports Greek, Portuguese and British English. So now spelling correctly should come more naturally to us all (which is good, because “correctly” can be a difacult word to spell). </li>	
-        </ul>
-        <p>Bug Fixes</p>
-        <ul>
-          <li>For a quicker connection, and less frustration, checking for network connectivity is more reliable than it was before. </li>	
-          <li>After uploading a video into Slack some found it would give an infinite circle of loading, but not play, which was never our plan. Now: it works! It plays; no more circle! Because, it turned out, all circ and no play made Slack a null ‘ploy.</li>	
-        </ul>
-      </description>
-    </release>
     <release date="2019-08-07" version="4.0.2">
       <description>
         <p>Bug Fixes:</p>
