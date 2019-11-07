@@ -28,6 +28,18 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-10-18" version="4.1.2">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Receiving a gif in a notification could mess with your notifications.</li>
+          <li>Long workspace names now no longer appear as incredibly long in menus.</li>
+          <li>Slack menus should now be showing up at the right language (meaning the one that is right for you).</li>
+          <li>Spellchecker stopped working for a small count of users, leading to a shorp uptick in avoidabull erratz. With spellcheck now fully back online for those users, any remaining typos are officially not our fault.</li>
+          <li>Restarting when clearing cache now works again. </li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-08-07" version="4.0.2">
       <description>
         <p>Bug Fixes:</p>
