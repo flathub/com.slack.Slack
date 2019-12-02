@@ -44,6 +44,16 @@
                 "install -Dm755 /usr/lib/$(gcc -print-multiarch)/libbfd-*.so -t ${FLATPAK_DEST}/lib"
             ],
             "sources": [
+                {                                                                       
+                    "name": "zypak",                                                    
+                    "sources": [                                                        
+                        {                                                               
+                            "type": "git",                                              
+                            "url": "https://github.com/refi64/zypak",                   
+                            "tag": "v2019.11beta.3"                                     
+                        }                                                               
+                    ]                                                                   
+                }, 
                 {
                     "type": "script",
                     "dest-filename": "apply_extra",
@@ -61,7 +71,7 @@
                     "type": "script",
                     "dest-filename": "slack.sh",
                     "commands": [
-                        "exec env TMPDIR=$XDG_CACHE_HOME /app/extra/bin/slack \"$@\""
+                        "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/bin/slack \"$@\""
                     ]
                 },
                 {
@@ -82,9 +92,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb",
-                    "sha256": "75c26004ae56bbb944d4b97347b00bb28ff4042d10666490e7974613fc2d7214",
-                    "size": 61298592
+                    "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.1.1-amd64.deb",
+                    "sha256": "2e84af28a9179faf1a6c64e36e6316792531de1d4530fcd2909e5eae77d1ced9",
+                    "size": 57986912
                 }
             ]
         }
