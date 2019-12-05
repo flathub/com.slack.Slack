@@ -28,6 +28,16 @@
     ],
     "modules": [
         {
+            "name": "zypak",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/refi64/zypak",
+                    "tag": "v2019.11beta.3"
+                }
+            ]
+        },
+        {
             "name": "slack",
             "buildsystem": "simple",
             "build-commands": [
@@ -44,16 +54,6 @@
                 "install -Dm755 /usr/lib/$(gcc -print-multiarch)/libbfd-*.so -t ${FLATPAK_DEST}/lib"
             ],
             "sources": [
-                {                                                                       
-                    "name": "zypak",                                                    
-                    "sources": [                                                        
-                        {                                                               
-                            "type": "git",                                              
-                            "url": "https://github.com/refi64/zypak",                   
-                            "tag": "v2019.11beta.3"                                     
-                        }                                                               
-                    ]                                                                   
-                }, 
                 {
                     "type": "script",
                     "dest-filename": "apply_extra",
