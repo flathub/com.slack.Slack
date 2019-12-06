@@ -28,6 +28,22 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2019-11-18" version="4.2.0">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>Our newest, fastest, best-performing, shiniest, most nutritious and delicious version of Slack is now fully rolled out, so that’s the one you’re now using. Brilliant. </li>
+          <li>Like zooming in and out? Use a numpad? Great news. You can now do these things, on that.</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Notifications looked weird if your workspace name was long. Now, no matter your team name, notifications look lovely. </li>
+          <li>Some messages were being marked as read when Slack was hidden behind applications, or not visible on screen. Now we won’t mark it as read until you’ve actually seen it. Which seems fair.</li>
+          <li>In Linux some components of the app were displaying menus when menus were not required. These items are now officially off-menu. Or rather, the menu is now officially off-them. </li>
+          <li>By popular demand (and because it was a bug), the --silent option is now available to silence terminal output.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-10-08" version="4.1.1">
       <description>
         <p>What’s New</p>
