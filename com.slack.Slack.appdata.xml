@@ -28,6 +28,20 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2020-01-30" version="4.3.2">
+      <description>
+        <p>What’s New:</p>
+        <ul>
+          <li>We've tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Slack would sometimes crash when the user right-clicked to see the context menu. In context, that was unhelpful. So it no longer does that.</li>
+          <li>When maximized, the app had developed a bit of a distracting flicker. That flicker is now part of Slack history.</li>
+          <li>Occasionally, a restart would result in connectivity issues for Slack… now you should be back online and back to work lickety-split. </li>
+        </ul>
+      </description>
+    </release>
     <release date="2019-10-08" version="4.1.1">
       <description>
         <p>What’s New</p>
