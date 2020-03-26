@@ -28,6 +28,14 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2020-02-04" version="4.4.0">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Fixed: If you zoom way in or zoom way out, and then open the About Slack window, the About Slack window would also be zoomed way in/out.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2020-01-30" version="4.3.2">
       <description>
         <p>What’s New:</p>
