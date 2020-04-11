@@ -28,6 +28,14 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2020-03-31" version="4.4.2">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>We're always working on performance improvements - and this release repairs a previously broken performance diagnostic tool. You won't notice a difference, but we'll have an easier time improving Slack.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2020-02-04" version="4.4.0">
       <description>
         <p>Bug Fixes:</p>
