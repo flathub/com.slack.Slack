@@ -20,7 +20,8 @@
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
         "--env=XDG_CURRENT_DESKTOP=Unity",
-        "--talk-name=org.kde.StatusNotifierWatcher"
+        "--talk-name=org.kde.StatusNotifierWatcher",
+        "--talk-name=com.canonical.AppMenu.Registrar"
     ],
     "modules": [
         {
