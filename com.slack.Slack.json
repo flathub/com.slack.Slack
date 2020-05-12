@@ -17,6 +17,7 @@
         "--system-talk-name=org.freedesktop.login1",
         "--talk-name=org.freedesktop.secrets",
         "--talk-name=org.freedesktop.Notifications",
+        "--talk-name=org.freedesktop.ScreenSaver",
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--talk-name=com.canonical.AppMenu.Registrar",
         "--filesystem=xdg-run/pipewire-0",
