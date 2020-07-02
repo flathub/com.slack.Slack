@@ -28,6 +28,22 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release date="2020-07-03" version="4.7.0">
+      <description>
+        <p>What’s New:</p>
+        <ul>
+          <li>A preference that allows you to choose a unique save location per download, instead of choosing a folder for all of them. For the choosy types.</li>
+          <li>We’ve upgraded all the backend stuff that the apps run on, resulting in better performance and fewer bugs.</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>After restoring the app window, some parts of it could lose their clickiness. Those parts have found their clickiness anew. Click away. Clickety clickety click.</li>
+          <li>If you found yourself, in some distant past, trying to start a song on Spotify with your keyboard’s play button, and it did not respond to your command while Slack was front and center, pesky hardware media keys were the problem. And this version is the cure.</li>
+          <li>The app should be less spicy to your CPU when you’re viewing certain network error pages.</li>
+          <li>When a download completes, we’ll show an in-app prompt rather than a bothersome system notification.</li>
+        </ul>
+      </description>
+    </release>
     <release date="2020-03-31" version="4.4.2">
       <description>
         <p>Bug Fixes:</p>
