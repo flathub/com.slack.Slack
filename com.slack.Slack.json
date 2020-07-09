@@ -18,6 +18,7 @@
         "--filesystem=xdg-music:ro",
         "--filesystem=xdg-videos:ro",
         "--filesystem=xdg-download",
+        "--filesystem=/tmp"
         "--talk-name=org.freedesktop.Notifications",
         "--env=XDG_CURRENT_DESKTOP=Unity",
         "--talk-name=org.kde.StatusNotifierWatcher",
