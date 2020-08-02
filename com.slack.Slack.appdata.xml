@@ -28,6 +28,16 @@
     <category>Network</category>
   </categories>
   <releases>
+     <release date="2020-07-20" version="4.8.0">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>In rare cases, Slack would simply fail to start altogether. While we’re sure we could all use a coffee break, we know you could also use an application that runs. So we fixed that.</li>
+          <li>We made the screen you see when you have connection problems more useful. We also spruced it up a bit with a fresh coat of paint.</li>
+          <li>Our notifications system sprung a leak, so we brought it in for a tune-up. Everything should be running smoother now.</li>
+        </ul>
+      </description>
+    </release>
      <release date="2020-07-03" version="4.7.0">
       <description>
         <p>What’s New:</p>
