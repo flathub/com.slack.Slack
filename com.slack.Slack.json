@@ -81,7 +81,14 @@
                     ],
                     "url": "https://downloads.slack-edge.com/linux_releases/slack-desktop-4.10.0-amd64.deb",
                     "sha256": "054759cc92ae902f1c36bb89c69c504fa5473e8180eb87bb1a2a1c2540a4fc72",
-                    "size": 56055010
+                    "size": 56055010,
+                    "x-checker-data": {
+                        "type": "debian-repo",
+                        "package-name": "slack-desktop",
+                        "root": "https://packagecloud.io/slacktechnologies/slack/debian/",
+                        "dist": "jessie",
+                        "component": "main"
+                    }
                 }
             ]
         }
