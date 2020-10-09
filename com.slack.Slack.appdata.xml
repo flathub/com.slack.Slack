@@ -28,6 +28,16 @@
     <category>Network</category>
   </categories>
   <releases>
+     <release date="2020-10-08" version="4.10.0">
+      <description>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>We fixed some issues that caused window resizing of Slack to be difficult. We never want to be difficult.</li>
+          <li>Quickly switching workspaces caused problems. Switching workspaces should only cause opportunities, so we fixed that.</li>
+          <li>There were a few little bugs that caused crashes, like bugs do. We fixed those, and we’ll fix the next ones too.</li>
+        </ul>
+      </description>
+    </release>
      <release date="2020-09-17" version="4.9.1">
       <description>
         <p>Bug Fixes:</p>
