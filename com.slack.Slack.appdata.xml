@@ -29,7 +29,6 @@
   </categories>
   <releases>
      <release version="4.10.0" date="2020-10-08"/>
-     <release date="2020-10-08" version="4.10.0">
       <description>
         <p>Bug Fixes:</p>
         <ul>
