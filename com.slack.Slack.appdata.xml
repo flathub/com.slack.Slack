@@ -28,6 +28,7 @@
     <category>Network</category>
   </categories>
   <releases>
+     <release version="4.10.3" date="2020-10-15"/>
      <release version="4.10.0" date="2020-10-08">
       <description>
         <p>Bug Fixes:</p>
