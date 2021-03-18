@@ -79,9 +79,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packagecloud.io/slacktechnologies/slack/debian/pool/jessie/main/s/slack-desktop/slack-desktop_4.13.0_amd64.deb",
-                    "sha256": "b8a63e1a91e4320b7e46aed692a5579fe2334b0f6963f9dceedccd05a7f51bc3",
-                    "size": 57716072,
+                    "url": "https://packagecloud.io/slacktechnologies/slack/debian/pool/jessie/main/s/slack-desktop/slack-desktop_4.14.0_amd64.deb",
+                    "sha256": "cfa500b6c5109724d5fc123477d5e4c9740e332a56397a1413462da9358ac977",
+                    "size": 59988434,
                     "x-checker-data": {
                         "type": "debian-repo",
                         "package-name": "slack-desktop",
