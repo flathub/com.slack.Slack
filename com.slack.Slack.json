@@ -80,9 +80,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://packagecloud.io/slacktechnologies/slack/debian/pool/jessie/main/s/slack-desktop/slack-desktop_4.15.0_amd64.deb",
-                    "sha256": "31aa7cdcff637c642cfeb2786d4cbcc076f226048080c91d76c38e48283ef7f7",
-                    "size": 60003048,
+                    "url": "https://packagecloud.io/slacktechnologies/slack/debian/pool/jessie/main/s/slack-desktop/slack-desktop_4.16.0_amd64.deb",
+                    "sha256": "3b47081392d1589b5d6b160cc8f477822fe83337b0fa0f745cb11202f2994536",
+                    "size": 60344642,
                     "x-checker-data": {
                         "type": "debian-repo",
                         "package-name": "slack-desktop",
@@ -93,16 +93,15 @@
                 }
             ]
         },
-
         {
-         "name": "pipewire",
-         "buildsystem": "meson",
-         "config-opts": [
-            "-Dgstreamer=disabled",
-            "-Dman=false",
-            "-Dsystemd=false"
-         ],
-         "sources": [
+            "name": "pipewire",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dgstreamer=disabled",
+                "-Dman=false",
+                "-Dsystemd=false"
+            ],
+            "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.freedesktop.org/pipewire/pipewire.git",
@@ -112,4 +111,3 @@
         }
     ]
 }
-
