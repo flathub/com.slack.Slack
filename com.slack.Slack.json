@@ -88,7 +88,8 @@
                         "package-name": "slack-desktop",
                         "root": "https://packagecloud.io/slacktechnologies/slack/debian/",
                         "dist": "jessie",
-                        "component": "main"
+                        "component": "main",
+                        "is-main-source": "true"
                     }
                 }
             ]
