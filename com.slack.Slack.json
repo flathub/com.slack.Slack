@@ -87,7 +87,8 @@
                         "type": "html",
                         "url": "https://slack.com/intl/en-nl/downloads/instructions/ubuntu",
                         "version-pattern": "https://downloads.slack-edge.com/linux_releases/slack-desktop-([\\d\\.]+)-amd64.deb",
-                        "url-pattern": "(https://downloads.slack-edge.com/linux_releases/slack-desktop-[\\d\\.]+-amd64.deb)"
+                        "url-pattern": "(https://downloads.slack-edge.com/linux_releases/slack-desktop-[\\d\\.]+-amd64.deb)",
+                        "is-main-source": "true"
                     }
                 }
             ]
