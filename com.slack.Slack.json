@@ -110,7 +110,8 @@
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
-                    }
+                    },
+                    "commit": "c43dabcc96e2e072cdf08e5f094bb677d9017c6b"
                 }
             ]
         }
