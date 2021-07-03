@@ -92,27 +92,6 @@
                     }
                 }
             ]
-        },
-        {
-            "name": "pipewire",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dgstreamer=disabled",
-                "-Dman=disabled",
-                "-Dsystemd=disabled",
-                "-Dudevrulesdir=/app/lib/udev/rules.d"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.freedesktop.org/pipewire/pipewire.git",
-                    "tag": "0.3.31",
-                    "x-checker-data": {
-                        "type": "git",
-                        "tag-pattern": "^([\\d.]+)$"
-                    }
-                }
-            ]
         }
     ]
 }
