@@ -61,7 +61,7 @@
                     "commands": [
                         "EXTRA_ARGS=\"\"",
                         "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
-                        "EXTRA_ARGS=\"--enable-features=UseOzonePlatform --ozone-platform=wayland\"",
+                        "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
                         "fi",
                         "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/bin/slack -s $EXTRA_ARGS \"$@\""
                     ]
