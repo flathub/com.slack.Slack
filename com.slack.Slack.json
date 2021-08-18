@@ -59,7 +59,6 @@
                     "type": "script",
                     "dest-filename": "slack.sh",
                     "commands": [
-                        "EXTRA_ARGS=\"\"",
                         "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
                         "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
                         "else",
