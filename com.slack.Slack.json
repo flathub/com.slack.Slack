@@ -35,7 +35,7 @@
                 "install -Dm644 slack.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
                 "install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"com.slack.Slack\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
-                "desktop-file-edit --set-key=\"Exec\" --set-value=\"slack --enable-features=WebRTCPipeWireCapturer %U\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
+                "desktop-file-edit --set-key=\"Exec\" --set-value=\"slack %U\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
                 "desktop-file-edit --set-key=\"StartupWMClass\" --set-value=\"Slack\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
                 "desktop-file-edit --set-key=\"X-Flatpak-RenamedFrom\" --set-value=\"slack.desktop;\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
                 "install -Dm755 /usr/bin/ar -t ${FLATPAK_DEST}/bin",
@@ -62,6 +62,8 @@
                         "EXTRA_ARGS=\"\"",
                         "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
                         "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
+                        "else",
+                        "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
                         "fi",
                         "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/bin/slack -s $EXTRA_ARGS \"$@\""
                     ]
