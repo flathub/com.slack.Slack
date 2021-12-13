@@ -85,9 +85,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://downloads.slack-edge.com/releases/linux/4.22.0/prod/x64/slack-desktop-4.22.0-amd64.deb",
-                    "sha256": "d12026d979673aa5cdc14f6a484776a72bedf7fec5acb2ddeb7414733b7d044d",
-                    "size": 65772046,
+                    "url": "https://downloads.slack-edge.com/releases/linux/4.23.0/prod/x64/slack-desktop-4.23.0-amd64.deb",
+                    "sha256": "3a823be14d9aaea2ef565ac6c3fc62580a10775bcc1eadcc62c3256999ea59f3",
+                    "size": 65626830,
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://slack.com/intl/en-nl/downloads/linux",
