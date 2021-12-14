@@ -28,6 +28,7 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release version="4.23.0" date="2021-12-03"/>
     <release version="4.22.0" date="2021-11-03"/>
     <release version="4.21.1" date="2021-11-04"/>
     <release version="4.20.0" date="2021-09-15"/>
