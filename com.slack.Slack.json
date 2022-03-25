@@ -55,7 +55,7 @@
                     "dest-filename": "slack.sh",
                     "commands": [
                         "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
-                        "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
+                        "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WaylandWindowDecorations,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
                         "else",
                         "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
                         "fi",
