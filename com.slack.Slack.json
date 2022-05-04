@@ -55,7 +55,7 @@
                         "chmod -R a-s,go+rX,go-w .",
                         "rmdir usr",
                         "mv /app/extra/bin/slack /app/extra/bin/slack.real",
-                        "cp ${FLATPAK_DEST}/bin/slack-wrapper.sh /app/extra/bin/slack"
+                        "cp /app/bin/slack-wrapper.sh /app/extra/bin/slack"
                     ]
                 },
                 {
