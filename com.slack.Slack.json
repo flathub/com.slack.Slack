@@ -31,6 +31,7 @@
             "build-commands": [
                 "install apply_extra ${FLATPAK_DEST}/bin",
                 "install slack.sh ${FLATPAK_DEST}/bin/slack",
+                "install -Dm755 slack-wrapper.sh ${FLATPAK_DEST}/bin/slack-wrapper.sh",
                 "install -Dm644 com.slack.Slack.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml",
                 "install -Dm644 slack.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
                 "install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
@@ -52,7 +53,9 @@
                         "rm -f control.tar.gz data.tar.xz debian-binary",
                         "mv usr/* .",
                         "chmod -R a-s,go+rX,go-w .",
-                        "rmdir usr"
+                        "rmdir usr",
+                        "mv /app/extra/bin/slack /app/extra/bin/slack.real",
+                        "cp ${FLATPAK_DEST}/bin/slack-wrapper.sh /app/extra/bin/slack"
                     ]
                 },
                 {
@@ -64,7 +67,14 @@
                         "else",
                         "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
                         "fi",
-                        "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/bin/slack -s $EXTRA_ARGS \"$@\""
+                        "TMPDIR=$XDG_RUNTIME_DIR/app/$FLATPAK_ID exec /app/extra/bin/slack -s $EXTRA_ARGS \"$@\""
+                    ]
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "slack-wrapper.sh",
+                    "commands": [
+                        "exec zypak-wrapper \"$(readlink -f \"$0\")\".real \"$@\""
                     ]
                 },
                 {
