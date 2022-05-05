@@ -32,6 +32,7 @@
                 "install apply_extra ${FLATPAK_DEST}/bin",
                 "install slack.sh ${FLATPAK_DEST}/bin/slack",
                 "install -Dm755 slack-wrapper.sh ${FLATPAK_DEST}/bin/slack-wrapper.sh",
+                "install -Dm644 slack-ld.so.conf /app/etc/ld.so.conf",
                 "install -Dm644 com.slack.Slack.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml",
                 "install -Dm644 slack.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
                 "install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
@@ -76,6 +77,10 @@
                     "commands": [
                         "exec zypak-wrapper \"$(readlink -f \"$0\")\".real \"$@\""
                     ]
+                },
+                {
+                    "type": "file",
+                    "path": "slack-ld.so.conf"
                 },
                 {
                     "type": "file",
