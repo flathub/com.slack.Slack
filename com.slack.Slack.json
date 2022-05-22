@@ -10,6 +10,7 @@
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
+        "--socket=wayland",
         "--socket=pulseaudio",
         "--share=network",
         "--device=all",
@@ -59,7 +60,7 @@
                     "type": "script",
                     "dest-filename": "slack.sh",
                     "commands": [
-                        "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
+                        "if [ \"${XDG_SESSION_TYPE}\" = \"wayland\" ]; then",
                         "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
                         "else",
                         "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
