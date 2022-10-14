@@ -10,6 +10,7 @@
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
+        "--socket=wayland",
         "--socket=pulseaudio",
         "--share=network",
         "--device=all",
@@ -20,6 +21,7 @@
         "--filesystem=xdg-download",
         "--talk-name=org.freedesktop.Notifications",
         "--env=XDG_CURRENT_DESKTOP=Unity",
+        "--env=USE_WAYLAND=0",
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--filesystem=xdg-run/pipewire-0",
         "--talk-name=com.canonical.AppMenu.Registrar"
@@ -56,16 +58,8 @@
                     ]
                 },
                 {
-                    "type": "script",
-                    "dest-filename": "slack.sh",
-                    "commands": [
-                        "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
-                        "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
-                        "else",
-                        "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
-                        "fi",
-                        "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/bin/slack -s $EXTRA_ARGS \"$@\""
-                    ]
+                    "type": "file",
+                    "path": "slack.sh"
                 },
                 {
                     "type": "file",
