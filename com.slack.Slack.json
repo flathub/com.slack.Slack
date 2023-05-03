@@ -23,7 +23,7 @@
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--filesystem=xdg-run/pipewire-0",
         "--talk-name=com.canonical.AppMenu.Registrar",
-        "--own-name=org.kde.StatusNotifierItem-2-1"
+        "--own-name=org.kde.*"
     ],
     "modules": [
         {
