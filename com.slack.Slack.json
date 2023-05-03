@@ -22,7 +22,8 @@
         "--env=XDG_CURRENT_DESKTOP=Unity",
         "--talk-name=org.kde.StatusNotifierWatcher",
         "--filesystem=xdg-run/pipewire-0",
-        "--talk-name=com.canonical.AppMenu.Registrar"
+        "--talk-name=com.canonical.AppMenu.Registrar",
+        "--own-name=org.kde.StatusNotifierItem-2-1"
     ],
     "modules": [
         {
