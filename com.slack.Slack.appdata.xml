@@ -17,9 +17,9 @@
     features directly within your Slack discussions.</p>
     <p>NOTE: This wrapper is not verified by, affiliated with, or
     supported by Slack Technologies, Inc.</p>
-    <p>Wayland support is optional and can be enabled by setting
-    the environment variable USE_WAYLAND=1 in Flatseal or by running
-    <code>flatpak override --user --env=USE_WAYLAND=1 com.Slack.slack</code>
+    <p>Native Wayland support is now enabled by default. It can be disabled by setting
+    the environment variable USE_WAYLAND=0 in Flatseal or by running
+    <code>flatpak override --user --env=USE_WAYLAND=0 com.slack.Slack</code>
     </p>
   </description>
   <screenshots>
