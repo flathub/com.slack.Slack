@@ -80,9 +80,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://downloads.slack-edge.com/releases/linux/4.33.84/prod/x64/slack-desktop-4.33.84-amd64.deb",
-                    "sha256": "0dfe94cc6d6824e78b24f531f8d761fe0641e7568126844ea9b3e7fb521d5432",
-                    "size": 75875434,
+                    "url": "https://downloads.slack-edge.com/releases/linux/4.33.90/prod/x64/slack-desktop-4.33.90-amd64.deb",
+                    "sha256": "54a73d1f85d65c900b2973e7d737a00149d3dad37d9960f9dadff097a2e854dc",
+                    "size": 75909318,
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://slack.com/intl/en-nl/downloads/linux",
