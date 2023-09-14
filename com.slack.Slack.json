@@ -85,8 +85,8 @@
                     "size": 78115758,
                     "x-checker-data": {
                         "type": "html",
-                        "url": "https://slack.com/intl/en-nl/downloads/linux",
-                        "version-pattern": "Version ([\\d\\.]+)",
+                        "url": "https://slack.com/intl/en-gb/release-notes/linux",
+                        "version-pattern": "Slack (\\d+\\.\\d+\\.\\d+)",
                         "url-template": "https://downloads.slack-edge.com/releases/linux/$version/prod/x64/slack-desktop-$version-amd64.deb",
                         "is-main-source": true
                     }
