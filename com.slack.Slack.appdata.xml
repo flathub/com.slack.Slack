@@ -28,6 +28,7 @@
     <category>Network</category>
   </categories>
   <releases>
+    <release version="4.34.120" date="2023-09-13"/>
     <release version="4.33.84" date="2023-07-14"/>
     <release version="4.33.73" date="2023-06-14"/>
     <release version="4.32.127" date="2023-06-01"/>
