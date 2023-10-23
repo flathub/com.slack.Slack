@@ -23,7 +23,8 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6",
         "--talk-name=com.canonical.AppMenu.Registrar",
-        "--filesystem=xdg-download"
+        "--filesystem=xdg-download",
+        "--env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons"
     ],
     "modules": [
         {
