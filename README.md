@@ -8,3 +8,13 @@ This repo hosts the flatpak wrapper for [Slack](https://slack.com/), available a
 flatpak install flathub com.slack.Slack
 flatpak run com.slack.Slack
 ```
+
+### Wayland
+
+This package enables the flags to run on Wayland, however it is opt-in. To opt-in run:
+
+```sh
+flatpak override --user --socket=wayland com.slack.Slack
+```
+
+To opt-out do the same with `--nosocket=wayland`.

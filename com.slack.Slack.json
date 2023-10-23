@@ -9,7 +9,6 @@
     "separate-locales": false,
     "finish-args": [
         "--share=ipc",
-        "--socket=wayland",
         "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
@@ -52,16 +51,8 @@
                     ]
                 },
                 {
-                    "type": "script",
-                    "dest-filename": "slack.sh",
-                    "commands": [
-                        "if [ -z \"$DISPLAY\" ] && [ -n \"$WAYLAND_DISPLAY\" ]; then",
-                        "EXTRA_ARGS=\"--enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\"",
-                        "else",
-                        "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
-                        "fi",
-                        "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/slack -s $EXTRA_ARGS \"$@\""
-                    ]
+                    "type": "file",
+                    "path": "slack.sh"
                 },
                 {
                     "type": "file",
