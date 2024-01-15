@@ -22,7 +22,6 @@
         "--talk-name=org.kde.kwalletd5",
         "--talk-name=org.kde.kwalletd6",
         "--talk-name=com.canonical.AppMenu.Registrar",
-        "--filesystem=xdg-run/pipewire-0",
         "--filesystem=xdg-download"
     ],
     "modules": [
