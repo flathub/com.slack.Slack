@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Slack
+StartupWMClass=Slack
 Comment=Slack Desktop
 GenericName=Slack Client for Linux
 Exec=/usr/bin/slack %U
