@@ -71,3 +71,4 @@ modules:
           - rm slack.deb
           - tar xf data.tar.xz --strip-components=4 ./usr/lib/slack
           - rm data.tar.xz
+          - sed -i 's/WebRTCPipeWireCapturer/LebRTCPipeWireCapturer/g' resources/app.asar
