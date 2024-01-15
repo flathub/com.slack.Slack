@@ -30,7 +30,7 @@
                 "install apply_extra ${FLATPAK_DEST}/bin",
                 "install slack.sh ${FLATPAK_DEST}/bin/slack",
                 "install -Dm644 com.slack.Slack.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml",
-                "install -Dm644 slack.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
+                "install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg",
                 "install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"com.slack.Slack\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
                 "desktop-file-edit --set-key=\"Exec\" --set-value=\"slack %U\" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop",
@@ -68,7 +68,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "slack.png"
+                    "path": "slack.svg"
                 },
                 {
                     "type": "file",
