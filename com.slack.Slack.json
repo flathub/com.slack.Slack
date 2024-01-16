@@ -59,7 +59,7 @@
                         "else",
                         "EXTRA_ARGS=\"--enable-features=WebRTCPipeWireCapturer\"",
                         "fi",
-                        "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/slack -s $EXTRA_ARGS \"$@\""
+                        "exec env TMPDIR=$XDG_CACHE_HOME zypak-wrapper /app/extra/slack $EXTRA_ARGS \"$@\""
                     ]
                 },
                 {
