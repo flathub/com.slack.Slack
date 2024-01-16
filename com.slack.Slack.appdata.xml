@@ -4,19 +4,24 @@
   <name>Slack</name>
   <project_license>LicenseRef-proprietary</project_license>
   <developer_name>Slack</developer_name>
-  <summary>Chat with your team</summary>
+  <summary>Team communication for the 21st century.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://slack.com</url>
   <url type="help">https://get.slack.help</url>
   <description>
-    <p>Slack offers chat rooms organized by topic, private groups,
-    and direct messaging capabilities to facilitate conversation and help
-    your team get things done. All content inside Slack is searchable,
-    including files, conversations, and people, so it's easy to stay organized.
-    Integration with several third-party services allows use of their
-    features directly within your Slack discussions.</p>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or
-    supported by Slack Technologies, Inc.</p>
+    <p>Caution: Slack for Linux is in beta. We’re still busy adding features and
+    ironing out potential issues.</p>
+    <p>Slack brings team communication and collaboration into one place so you can get
+    more work done, whether you belong to a large enterprise or a small business.
+    Check off your to-do list and move your projects forward by bringing the right
+    people, conversations, tools, and information you need together. Slack is
+    available on any device, so you can find and access your team and your work,
+    whether you’re at your desk or on the go.</p>
+    <p>Scientifically proven (or at least rumored) to make your working life simpler,
+    more pleasant, and more productive. We hope you’ll give Slack a try.</p>
+    <p>Stop by and learn more at: https://slack.com/</p>
+    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Slack
+    Technologies, Inc.</p>
   </description>
   <screenshots>
     <screenshot type="default">
