@@ -4,7 +4,7 @@ base-version: '23.08'
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-command: slack
+command: com.slack.Slack
 separate-locales: false
 finish-args:
   - --device=all
@@ -36,12 +36,12 @@ modules:
       - install -Dm755 apply_extra ${FLATPAK_DEST}/bin
       - install -Dm644 ${FLATPAK_ID}.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml
       - install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - install -Dm755 slack.sh ${FLATPAK_DEST}/bin/slack
+      - install -Dm755 slack.sh ${FLATPAK_DEST}/bin/${FLATPAK_ID}
       - install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
 
       # Edit desktop file to remap to our ${FLATPAK_ID}.
       - desktop-file-edit --set-icon="${FLATPAK_ID}" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - desktop-file-edit --set-key="Exec" --set-value="slack %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="Exec" --set-value="${FLATPAK_ID} %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: extra-data
