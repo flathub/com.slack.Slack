@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2024 Slack Technologies, Inc. -->
+<component type="desktop-application">
+  <id>com.slack.Slack</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <developer_name>Slack Technologies Inc.</developer_name>
+  <project_group>Slack Technologies Inc.</project_group>
+  <project_license>LicenseRef-proprietary</project_license>
+  <name>Slack</name>
+  <summary>Team communication for the 21st century</summary>
+
+  <url type="homepage">https://slack.com</url>
+  <url type="help">https://get.slack.help</url>
+
+  <description>
+    <p>Caution: Slack for Linux is in beta. We’re still busy adding features and
+    ironing out potential issues.</p>
+    <p>Slack brings team communication and collaboration into one place so you can get
+    more work done, whether you belong to a large enterprise or a small business.
+    Check off your to-do list and move your projects forward by bringing the right
+    people, conversations, tools, and information you need together. Slack is
+    available on any device, so you can find and access your team and your work,
+    whether you’re at your desk or on the go.</p>
+    <p>Scientifically proven (or at least rumored) to make your working life simpler,
+    more pleasant, and more productive. We hope you’ll give Slack a try.</p>
+    <p>Stop by and learn more at: https://slack.com/</p>
+    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Slack
+    Technologies, Inc.</p>
+  </description>
+
+  <launchable type="desktop-id">com.slack.Slack.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://a.slack-edge.com/6e36e01/marketing/img/downloads/refreshed/slack-ia4-client-linux-desktop@2x.png</image>
+    </screenshot>
+  </screenshots>
+
+  <categories>
+    <category>InstantMessaging</category>
+    <category>Network</category>
+  </categories>
+
+  <provides>
+    <mediatype>x-scheme-handler/slack</mediatype>
+  </provides>
+
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+    <display_length compare="ge">medium</display_length>
+  </supports>
+
+  <requires>
+    <internet bandwidth_mbitps="2">always</internet>
+  </requires>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="money-purchasing">intense</content_attribute>
+    <content_attribute id="social-audio">intense</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-contacts">intense</content_attribute>
+    <content_attribute id="social-info">intense</content_attribute>
+  </content_rating>
+
+  <update_contact>akoskovich_at_protonmail.com</update_contact>
+
+  <!-- Contents are from https://slack.com/release-notes/linux -->
+  <releases>
+    <release version="4.36.138" date="2024-01-16">
+      <description>
+        <p>All bugs that were fixed in this release were too small for the eye to
+        see or too fiddly for human words to describe. Nevertheless, work was done,
+        things tinkered with and the app became subtly better.</p>
+      </description>
+    </release>
+    <release version="4.36.136" date="2023-12-21">
+      <description>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.36.134" date="2023-12-11">
+      <description>
+        <p>We don’t have anything in particular to call out for this release, but we
+        thank you for staying up to date all the same.</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.35.132" date="2023-12-21">
+      <description>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.35.131" date="2023-11-30">
+      <description>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.35.130" date="2023-11-27">
+      <description>
+        <p>Changes are afoot when it comes to updating the Linux app.</p>
+      </description>
+    </release>
+    <release version="4.35.126" date="2023-11-6">
+      <description>
+        <p>Changes are afoot when it comes to updating the Linux app.</p>
+      </description>
+    </release>
+    <release version="4.35.121" date="2023-10-24">
+      <description>
+        <p>All bugs that were fixed in this release were too small for the eye to see
+        or too fiddly for human words to describe. Nevertheless, work was done, things
+        tinkered with and the app became subtly better.</p>
+      </description>
+    </release>
+    <release version="4.34.121" date="2023-09-28">
+      <description>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.34.120" date="2023-09-13">
+      <description>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.34.115" date="2023-09-05">
+      <description>
+        <p>Starting with Slack for Linux version 4.34, a new code signing key will be used.</p>
+        <p>Linux users on Wayland noticed that screensharing in huddles would crash the app
+        as soon as sharing ended. No good deed goes unpunished, they say. We’re working to
+        change that to "No bad bug goes unfixed." Please resume sharing with impunity.</p>
+      </description>
+    </release>
+    <release version="4.33.90" date="2023-08-14">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything is now
+        running smoothly again.</p>
+      </description>
+    </release>
+    <release version="4.33.84" date="2023-07-31">
+      <description>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+        <p>We’ll be using a new code signing key starting from release 4.34 to verify Slack
+        for Linux package signatures.</p>
+        <p>On Sept. 1, we’ll be deprecating support for some older operating systems and
+        outdated versions of Slack.</p>
+      </description>
+    </release>
+    <release version="4.33.73" date="2023-06-28">
+      <description>
+        <p>Intelligent quips often contain depth of thought, but that’s not what we mean
+        when we say that smartquotes were presenting a problem for deep links. Punctuation
+        will no longer affect the punctuality of your deep link updates.</p>
+        <p>Good governance is all about removing roadblocks, which is why we’ve retooled
+        the sign-in flow for GovSlack. Now when you sign in to a government workspace for
+        the first time, we’ll automatically restart the app in Gov mode (instead of kicking
+        you back to the login page). Your Slack dollars at work!</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.32.127" date="2023-06-12">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything is
+        now running smoothly again.</p>
+      </description>
+    </release>
+    <release version="4.32.122" date="2023-05-10">
+      <description>
+        <p>For some users, a successful connection to VPN resulted in an unsuccessful
+        connection of Slack to the internet, which of course made working in Slack impossible.
+        We’ve set you up for success once again by successfully fixing this issue.</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.31.155" date="2023-04-12">
+      <description>
+        <p>Organizations will be able to manage Slack desktop client settings during rollout
+        and ongoing operations. Configurations can be deployed with industry standard tooling:
+        Group Policies on Windows, user preferences profiles on Mac and with configuration files
+        on Linux.</p>
+        <p>Those of you who love approaching meetings with all the mystery of a blind date no
+        doubt enjoyed our recent bug where huddle invitations wouldn’t say which workspace or
+        channel they came from. Everyone else thought this was weird and confusing, so we
+        fixed it.</p>
+        <p>Using the shortcut Ctrl + Shift + F will now toggle to Fullscreen mode, allowing
+        you to really take in the view (or just focus a bit more).</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.29.149" date="2022-11-28">
+      <description>
+        <p>“What is this—a video player for ants?” YouTube videos embedded in Slack can now be
+        expanded to play in full-screen mode, which we’re told is at least three times bigger.</p>
+      </description>
+    </release>
+    <release version="4.28.184" date="2022-09-27"/>
+    <release version="4.28.182" date="2022-09-26">
+      <description>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.28.171" date="2022-08-31">
+      <description>
+        <p>On Sept. 1, we’ll be deprecating support for some older operating systems and outdated
+        versions of Slack.</p>
+        <p>Starting with Slack for Linux version 4.28, a new code signing key will be used.</p>
+        <p>Trying to capture your screen with a third-party app while also sharing your screen
+        in Slack may have resulted in the non-Slack app crashing. We’d like to say that this
+        was because the idea of “capture” is antithetical to “sharing,” but in truth it was
+        just a “bug.”</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.27.156" date="2022-07-05">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything is now
+        running smoothly again.</p>
+      </description>
+    </release>
+    <release version="4.27.154" date="2022-06-27">
+      <description>
+        <p>You may have noticed that with this release there’s a new, larger number at the end
+        of the version string. Going forward, while you’ll still see the numbers laid out in a
+        MAJOR.MINOR.BUILD sequence, the “Build” numbers will now correspond to specific builds
+        on our end as opposed to a small sequential number. TL;DR: A few more numbers for you,
+        a bit more specificity for everyone.</p>
+        <p>We’ve added the most common Apple and Microsoft file extensions to our approved list
+        so you won’t be asked to confirm each time you open a Word doc or Keynote presentation.
+        Are you sure you’d like one less approval? YES/NO</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.26.1" date="2022-05-16">
+      <description>
+        <p>If you tried to re-download a file that was already present in your Downloads folder,
+        the app would pretend to download it again without actually producing a new file.
+        Duplicitous duplication was never part of the plan—sorry about that.</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.25.1" date="2022-04-04">
+      <description>
+        <p>We’ve tinkered with the internal workings and polished some rough edges. The app is now
+        better than it was.</p>
+      </description>
+    </release>
+    <release version="4.25.0" date="2022-04-04">
+      <description>
+        <p>Starting today, you’ll see a confirmation pop-up when a link in Slack is prompting another
+        program to open. If you don’t want to see these each time because you enjoy living on the edge,
+        just check the box “Always open files of this type.”</p>
+        <p>We discovered that under very specific circumstances (stars being aligned, barometric pressure
+        being just so, looking in a mirror and saying “Slackbot” 3 times), Active Directory users were
+        ending up with a backslash in their Home directory, which was preventing the app from launching.
+        However it happened, all slashes are welcome at the party, so Slack will run as expected now.</p>
+      </description>
+    </release>
+    <release version="4.24.1" date="2022-03-17">
+      <description>
+        <p>We’ve updated our Linux package to use strict confinement for additional security sandboxing
+        and faster loading times. That’s what we call a Win/Win (or a Linux/Linux).</p>
+      </description>
+    </release>
+    <release version="4.24.0" date="2022-03-14">
+      <description>
+        <p>Perhaps you wanted to know which version of the app you had installed. Maybe we gave you an
+        option to copy that version number to your clipboard. It’s possible the “Copy” button didnothing
+        at all. One might say we fixed it.</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.23.0" date="2021-12-13">
+      <description>
+        <p>If you are someone who moved your app data directory and were using a symlink, you may have
+        noticed that Slack would fail to open beyond the initial launch. Well, now it won’t do that
+        anymore. We fixed it, you see.</p>
+        <p>Some external URLs were occasionally launching within the Slack app window, but will now load
+        in your default web browser, as is proper. Slack cannot have a little web page, even as a treat.</p>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.22.0" date="2021-11-16">
+      <description>
+        <p>Starting with Slack for Linux version 4.22.0, a new code signing key will be used. Please visit
+        this Help Center article for new instructions on signature verification</p>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.21.1" date="2021-11-04">
+      <description>
+        <p>This release includes security improvements. Updating is recommended.</p>
+        <p>A new way to verify package signatures for Linux - We’ll soon be using a new code signing key to
+        verify Slack for Linux package signatures.</p>
+      </description>
+    </release>
+    <release version="4.20.0" date="2021-09-29">
+      <description>
+        <p>When opening SSH, FTP, SFTP or SMB links, you’ll now see the option to allow all future URLs
+        from just that same domain instead of the whole wide world. A little more secure for us, a little
+        more peace of mind for you.</p>
+        <p>We fixed a crash that was occurring on certain Linux clients, as studies have shown that Slack
+        works better when it doesn’t sporadically quit without warning.</p>
+        <p>Certain versions of the app were not correctly changing availability to “Away” after 10 minutes
+        of inactivity. While this has been fixed, we’d like to remind you that you can use your Custom Status
+        to let your teammates know your whereabouts beyond simply Active or Away. Examples include: walking
+        the dog, catching up after PTO, taking a mental break, or tweeting nice things to the Slack social
+        media team.</p>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.19.2" date="2021-08-23">
+      <description>
+        <p>This release includes significant security improvements. Updating is strongly recommended.</p>
+      </description>
+    </release>
+    <release version="4.18.0" date="2021-07-27">
+      <description>
+        <p>Certain menus were not being properly translated when switching languages in the app. You know
+        what they say about menus — they’re most helpful when you can read them.</p>
+      </description>
+    </release>
+    <release version="4.17.0" date="2021-06-27">
+      <description>
+        <p>Bigger is better, or rather, closer is clearer. We now support additional zoom levels up to
+        200% to reduce the strain on your precious peepers.</p>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.16.0" date="2021-05-11">
+      <description>
+        <p>Images and notifications were sometimes sharing real estate...inelegantly. We have given them
+        both a talking-to, and they have agreed to joint custody of that section of the screen.</p>
+        <p>This release includes security improvements. Updating is recommended.</p>
+      </description>
+    </release>
+    <release version="4.15.0" date="2021-04-23">
+      <description>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.14.0" date="2021-03-17">
+      <description>
+        <p>We improved the restart experience when you’ve gone offline or are having loading issues.</p>
+        <p>We all have to sign out sometimes. If you sign out of all of your workspaces, you should have
+        an easier time signing back in.</p>
+        <p>This release includes minor security improvements. Updating is beneficial.</p>
+      </description>
+    </release>
+    <release version="4.13.0" date="2021-02-17">
+      <description>
+        <p>When you move or resize Slack, we assume you are indeed trying to move or resize it — and so the
+        crash that was regularly happening, instead, was unwelcome. We’ve fixed this. Here’s to properly-sized
+        screens!</p>
+        <p>We’ve fixed several accessibility issues. Making Slack more accessible is a continuous journey,
+        and we’re quite grateful that you’re along for the ride!</p>
+      </description>
+    </release>
+    <release version="4.12.2" date="2021-01-08">
+      <description>
+        <p>We tweaked some things too small to notice or too difficult to explain. We’ll return you to your
+        regular, more interesting types of release next time (we hope).</p>
+      </description>
+    </release>
+    <release version="4.12.1" date="2021-01-07">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly
+        again.</p>
+      </description>
+    </release>
+    <release version="4.12.0" date="2020-12-14">
+      <description>
+        <p>È pronto! Italian language support has landed!</p>
+        <p>As a dancer gracefully recovers from a minor tumble, so shall our app gracefully reload whilst
+        throttled by network failures.</p>
+      </description>
+    </release>
+    <release version="4.11.3" date="2020-11-25">
+      <description>
+        <p>We’ve tinkered with the internal workings and polished some rough edges. The app is now better
+        than it was.</p>
+      </description>
+    </release>
+    <release version="4.11.1" date="2020-11-11">
+      <description>
+        <p>We tweaked some things too small to notice or too difficult to explain. We’ll return you to your
+        regular, more interesting types of release next time (we hope).</p>
+      </description>
+    </release>
+    <release version="4.11.0" date="2020-11-09">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything is now running
+        smoothly again.</p>
+      </description>
+    </release>
+    <release version="4.10.3" date="2020-10-15">
+      <description>
+        <p>We’ve tinkered with the internal workings and polished some rough edges. The app is now
+        better than it was.</p>
+      </description>
+    </release>
+    <release version="4.10.0" date="2020-10-08">
+      <description>
+        <p>We fixed some issues that caused window resizing of Slack to be difficult. We never want
+        to be difficult.</p>
+        <p>Quickly switching workspaces caused problems. Switching workspaces should only cause
+        opportunities, so we fixed that.</p>
+        <p>There were a few little bugs that caused crashes, like bugs do. We fixed those, and we’ll
+        fix the next ones too.</p>
+      </description>
+    </release>
+    <release version="4.9.1" date="2020-09-17">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything is now running
+        smoothly again.</p>
+      </description>
+    </release>
+    <release version="4.8.0" date="2020-07-20">
+      <description>
+        <p>In rare cases, Slack would simply fail to start altogether. While we’re sure we could all
+        use a coffee break, we know you could also use an application that runs. So we fixed that.</p>
+        <p>We made the screen you see when you have connection problems more useful. We also spruced
+        it up a bit with a fresh coat of paint.</p>
+        <p>Our notifications system sprung a leak, so we brought it in for a tune-up. Everything
+        should be running smoother now.</p>
+      </description>
+    </release>
+    <release version="4.7.0" date="2020-07-03">
+      <description>
+        <p>A preference that allows you to choose a unique save location per download, instead of
+        choosing a folder for all of them. For the choosy types.</p>
+        <p>We’ve upgraded all the backend stuff that the apps run on, resulting in better performance
+        and fewer bugs.</p>
+        <p>Our spell checker has been swapped out for a newer model that’s faster, leaner, and capable
+        of fixing your typos in… wait, can this be right? “Multiple languages at the same time”! Open
+        the “Language and Region” preferences to choose your languages. And for whoever it is out there
+        requires that functionality: our hats are off to you. We can barely type in one language right now.</p>
+        <p>After restoring the app window, some parts of it could lose their clickiness. Those parts have
+        found their clickiness anew. Click away. Clickety clickety click.</p>
+        <p>If you found yourself, in some distant past, trying to start a song on Spotify with your keyboard’s
+        play button, and it did not respond to your command while Slack was front and center, pesky hardware
+        media keys were the problem. And this version is the cure.</p>
+        <p>The app should be less spicy to your CPU when you’re viewing certain network error pages.</p>
+        <p>When a download completes, we’ll show an in-app prompt rather than a bothersome system notification.</p>
+      </description>
+    </release>
+    <release version="4.4.3" date="2020-05-18">
+      <description>
+        <p>We’ve tinkered with the internal workings and polished some rough edges. The app is now better
+        than it was.</p>
+      </description>
+    </release>
+    <release version="4.4.2" date="2020-03-31">
+      <description>
+        <p>We’re always working on performance improvements - and this release repairs a previously broken
+        performance diagnostic tool. You won’t notice a difference, but we’ll have an easier time improving
+        Slack.</p>
+      </description>
+    </release>
+    <release version="4.4.0" date="2020-02-04">
+      <description>
+        <p>Fixed: If you zoom way in or zoom way out, and then open the About Slack window, the About Slack
+        window would also be zoomed way in/out.</p>
+      </description>
+    </release>
+    <release version="4.3.2" date="2020-01-30">
+      <description>
+        <p>We’ve tinkered with the internal workings and polished some rough edges. The app is now better
+        than it was.</p>
+        <p>Slack would sometimes crash when the user right-clicked to see the context menu. In context,
+        that was unhelpful. So it no longer does that.</p>
+        <p>When maximized, the app had developed a bit of a distracting flicker. That flicker is now part
+        of Slack history.</p>
+        <p>Occasionally, a restart would result in connectivity issues for Slack… now you should be back
+        online and back to work lickety-split.</p>
+      </description>
+    </release>
+    <release version="4.2.0" date="2019-12-05">
+      <description>
+        <p>Our newest, fastest, best-performing, shiniest, most nutritious and delicious version of Slack
+        is now fully rolled out, so that’s the one you’re now using. Brilliant.</p>
+        <p>Like zooming in and out? Use a numpad? Great news. You can now do these things, on that.</p>
+        <p>Notifications looked weird if your workspace name was long. Now, no matter your team name,
+        notifications look lovely.</p>
+        <p>Some messages were being marked as read when Slack was hidden behind applications, or not
+        visible on screen. Now we won’t mark it as read until you’ve actually seen it. Which seems fair.</p>
+        <p>In Linux some components of the app were displaying menus when menus were not required. These
+        items are now officially off-menu. Or rather, the menu is now officially off-them.</p>
+        <p>By popular demand (and because it was a bug), the --silent option is now available to silence
+        terminal output.</p>
+      </description>
+    </release>
+    <release version="4.1.2" date="2019-10-18">
+      <description>
+        <p>Receiving a gif in a notification could mess with your notifications.</p>
+        <p>Long workspace names now no longer appear as incredibly long in menus.</p>
+        <p>Slack menus should now be showing up at the right language (meaning the one that is right
+        for you).</p>
+        <p>Spellchecker stopped working for a small count of users, leading to a shorp uptick in
+        avoidabull erratz. With spellcheck now fully back online for those users, any remaining
+        typos are officially not our fault.</p>
+        <p>Restarting when clearing cache now works again.</p>
+      </description>
+    </release>
+    <release version="4.1.1" date="2019-10-08">
+      <description>
+        <p>Thanks to a few tweaks to the engine, a polish of the pistons, and recalibrated valves,
+        the app should be running smoother and faster, than before.</p>
+        <p>Spellcheck, revamped, is now a much better version of its old self (and back on Linux,
+        to boot) — now it supports Greek, Portuguese and British English. So now spelling correctly
+        should come more naturally to us all (which is good, because “correctly” can be a difacult
+        word to spell).</p>
+        <p>For a quicker connection, and less frustration, checking for network connectivity is more
+        reliable than it was before.</p>
+        <p>After uploading a video into Slack some found it would give an infinite circle of loading,
+        but not play, which was never our plan. Now: it works! It plays; no more circle! Because, it
+        turned out, all circ and no play made Slack a null ‘ploy.</p>
+      </description>
+    </release>
+    <release version="4.0.2" date="2019-08-07">
+      <description>
+        <p>Videos in channels were found to be the cause of a minor (but pesky) memory leak that has
+        now been well and truly plugged.</p>
+        <p>We spruced up the notifications a little so now they’ll not only show up every time you
+        need them to, they’ll show up looking like whatever theme you wear proudly on your sidebar. Neat.</p>
+        <p>On opening your computer, the app is now, thankfully, more likely to launch properly every time.</p>
+        <p>If you’d become used to opening Slack from a shortcut on your desktop or menu… you’ll know
+        that we broke that recently. Sorry about that. It is now unbroken once more.</p>
+      </description>
+    </release>
+    <release version="4.0.1" date="2019-07-25">
+      <description>
+        <p>We’ve tinkered with the internal workings and polished some rough edges. The app is now better
+        than it was.</p>
+      </description>
+    </release>
+    <release version="4.0.0" date="2019-07-08"/>
+    <release version="3.4.2" date="2019-05-23"/>
+    <release version="3.4.0" date="2019-04-18"/>
+    <release version="3.3.8" date="2019-03-12"/>
+    <release version="3.3.7" date="2019-01-16"/>
+    <release version="3.3.3" date="2018-10-02"/>
+    <release version="3.3.1" date="2018-08-31"/>
+    <release version="3.2.1" date="2018-05-31"/>
+  </releases>
+</component>

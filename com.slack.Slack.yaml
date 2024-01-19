@@ -34,7 +34,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 apply_extra ${FLATPAK_DEST}/bin
-      - install -Dm644 ${FLATPAK_ID}.appdata.xml ${FLATPAK_DEST}/share/appdata/${FLATPAK_ID}.appdata.xml
+      - install -Dm644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - install -Dm755 slack.sh ${FLATPAK_DEST}/bin/${FLATPAK_ID}
       - install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
@@ -57,7 +57,7 @@ modules:
           url-template: https://downloads.slack-edge.com/releases/linux/$version/prod/x64/slack-desktop-$version-amd64.deb
           version-pattern: Slack (\\d+\\.\\d+\\.\\d+)
       - type: file
-        path: com.slack.Slack.appdata.xml
+        path: com.slack.Slack.metainfo.xml
       - type: file
         path: slack.desktop
       - type: file
