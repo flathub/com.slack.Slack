@@ -31,8 +31,17 @@
   <launchable type="desktop-id">com.slack.Slack.desktop</launchable>
 
   <screenshots>
-    <screenshot type="default">
-      <image type="source">https://a.slack-edge.com/6e36e01/marketing/img/downloads/refreshed/slack-ia4-client-linux-desktop@2x.png</image>
+    <screenshot environment="gnome:dark" type="default">
+      <image type="source">https://raw.githubusercontent.com/flathub/com.slack.Slack/master/screenshots/gnome-dark-general-slack.png</image>
+    </screenshot>
+    <screenshot environment="gnome:dark">
+      <image type="source">https://raw.githubusercontent.com/flathub/com.slack.Slack/master/screenshots/gnome-dark-messages-slack.png</image>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image type="source">https://raw.githubusercontent.com/flathub/com.slack.Slack/master/screenshots/gnome-light-general-slack.png</image>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image type="source">https://raw.githubusercontent.com/flathub/com.slack.Slack/master/screenshots/gnome-light-messages-slack.png</image>
     </screenshot>
   </screenshots>
 
