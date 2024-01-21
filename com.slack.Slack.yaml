@@ -30,6 +30,9 @@ finish-args:
   - --system-talk-name=org.freedesktop.UPower
   - --system-talk-name=org.freedesktop.login1
 modules:
+  - shared-modules/lzo/lzo.json
+  - shared-modules/squashfs-tools/squashfs-tools.json
+
   - name: lsb_release
     buildsystem: simple
     cleanup:
@@ -59,17 +62,15 @@ modules:
       - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: extra-data
-        filename: slack.deb
+        filename: slack.snap
         only-arches: [x86_64]
-        url: https://downloads.slack-edge.com/releases/linux/4.37.77/prod/x64/slack-desktop-4.37.77-amd64.deb
-        sha256: e315bd75300dbb93d284b232cee020b5ca567cc09c4dd3ce9bc01bcfd20a5184
-        size: 78955798
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_134.snap
+        sha256: c70255a14f21bb2acca10bf4ec028b4af592f7990b3742c60258e04eed576f45
+        size: 123138048
         x-checker-data:
-          is-main-source: true
-          type: html
-          url: https://slack.com/intl/en-gb/release-notes/linux
-          url-template: https://downloads.slack-edge.com/releases/linux/$version/prod/x64/slack-desktop-$version-amd64.deb
-          version-pattern: Slack (\\d+\\.\\d+\\.\\d+)
+          type: snapcraft
+          name: slack
+          channel: beta
       - type: file
         path: com.slack.Slack.metainfo.xml
       - type: file
@@ -81,8 +82,7 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - bsdtar -xf slack.deb data.tar.xz
-          - rm slack.deb
-          - tar xf data.tar.xz --strip-components=4 ./usr/lib/slack
-          - rm data.tar.xz
+          - unsquashfs -quiet -no-progress slack.snap usr/lib/slack
+          - mv squashfs-root/usr/lib/slack/* .
+          - rm -r squashfs-root slack.snap
           - sed -i 's/WebRTCPipeWireCapturer/LebRTCPipeWireCapturer/g' resources/app.asar
