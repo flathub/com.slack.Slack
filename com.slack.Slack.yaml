@@ -39,6 +39,8 @@ modules:
       - install -Dm755 slack.sh ${FLATPAK_DEST}/bin/${FLATPAK_ID}
       - install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
 
+      - desktop-file-edit --remove-key="StartupNotify" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+
       # Edit desktop file to remap to our ${FLATPAK_ID}.
       - desktop-file-edit --set-icon="${FLATPAK_ID}" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Exec" --set-value="${FLATPAK_ID} %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
