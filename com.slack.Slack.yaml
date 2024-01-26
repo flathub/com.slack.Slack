@@ -30,6 +30,18 @@ finish-args:
   - --system-talk-name=org.freedesktop.UPower
   - --system-talk-name=org.freedesktop.login1
 modules:
+  - name: lsb_release
+    buildsystem: simple
+    cleanup:
+      - /share/man
+    build-commands:
+      - make
+      - make install INSTALL_ROOT=${FLATPAK_DEST}
+    sources:
+      - type: git
+        url: https://github.com/thkukuk/lsb-release_os-release.git
+        tag: v3.3
+
   - name: slack
     buildsystem: simple
     build-commands:
