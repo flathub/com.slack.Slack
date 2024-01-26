@@ -71,6 +71,12 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.36.140" date="2024-01-24">
+      <description>
+        <p>We tuned up the engine and gave the interiors a thorough clean. Everything
+        is now running smoothly again.</p>
+      </description>
+    </release>
     <release version="4.36.138" date="2024-01-16">
       <description>
         <p>All bugs that were fixed in this release were too small for the eye to
