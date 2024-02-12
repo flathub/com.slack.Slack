@@ -71,6 +71,12 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.37.77" date="2024-02-12">
+      <description>
+        <p>Don’t mind us—just making a few small adjustments to keep the app in tip-top
+        shape. More to come soon. Cheerio!</p>
+      </description>
+    </release>
     <release version="4.36.140" date="2024-01-24">
       <description>
         <p>We tuned up the engine and gave the interiors a thorough clean. Everything

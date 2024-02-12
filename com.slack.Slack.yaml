@@ -61,9 +61,9 @@ modules:
       - type: extra-data
         filename: slack.deb
         only-arches: [x86_64]
-        url: https://downloads.slack-edge.com/releases/linux/4.36.140/prod/x64/slack-desktop-4.36.140-amd64.deb
-        sha256: b90f363faf735987231b653756d7bffa0e5e328e6254551d6cbd85c52e84507d
-        size: 78738834
+        url: https://downloads.slack-edge.com/releases/linux/4.37.77/prod/x64/slack-desktop-4.37.77-amd64.deb
+        sha256: e315bd75300dbb93d284b232cee020b5ca567cc09c4dd3ce9bc01bcfd20a5184
+        size: 78955798
         x-checker-data:
           is-main-source: true
           type: html
