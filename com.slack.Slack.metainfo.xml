@@ -3,7 +3,9 @@
 <component type="desktop-application">
   <id>com.slack.Slack</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <developer_name>Slack Technologies Inc.</developer_name>
+  <developer id="slack.com">
+    <name>Slack Technologies Inc.</name>
+  </developer>
   <project_group>Slack Technologies Inc.</project_group>
   <project_license>LicenseRef-proprietary</project_license>
   <name>Slack</name>
