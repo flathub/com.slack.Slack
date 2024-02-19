@@ -40,11 +40,6 @@
     </screenshot>
   </screenshots>
 
-  <categories>
-    <category>InstantMessaging</category>
-    <category>Network</category>
-  </categories>
-
   <provides>
     <mediatype>x-scheme-handler/slack</mediatype>
   </provides>
