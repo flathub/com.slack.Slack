@@ -63,8 +63,6 @@
     <content_attribute id="social-info">intense</content_attribute>
   </content_rating>
 
-  <update_contact>akoskovich_at_protonmail.com</update_contact>
-
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
     <release version="4.37.77" date="2024-02-12">
