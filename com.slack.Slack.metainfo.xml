@@ -15,27 +15,38 @@
   <url type="help">https://get.slack.help</url>
 
   <description>
-    <p>Caution: Slack for Linux is in beta. We’re still busy adding features and
-    ironing out potential issues.</p>
-    <p>Slack brings team communication and collaboration into one place so you can get
-    more work done, whether you belong to a large enterprise or a small business.
-    Check off your to-do list and move your projects forward by bringing the right
-    people, conversations, tools, and information you need together. Slack is
-    available on any device, so you can find and access your team and your work,
-    whether you’re at your desk or on the go.</p>
-    <p>Scientifically proven (or at least rumored) to make your working life simpler,
-    more pleasant, and more productive. We hope you’ll give Slack a try.</p>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by Slack
-    Technologies, Inc.</p>
+    <p>
+      Caution: Slack for Linux is in beta. We’re still busy adding features and
+      ironing out potential issues.
+    </p>
+    <p>
+      Slack brings team communication and collaboration into one place so you
+      can get more work done, whether you belong to a large enterprise or a
+      small business. Check off your to-do list and move your projects forward
+      by bringing the right people, conversations, tools, and information you
+      need together. Slack is available on any device, so you can find and
+      access your team and your work, whether you’re at your desk or on the go.
+    </p>
+    <p>
+      Scientifically proven (or at least rumored) to make your working life
+      simpler, more pleasant, and more productive. We hope you’ll give Slack a
+      try.
+    </p>
+    <p>
+      NOTE: This wrapper is not verified by, affiliated with, or supported by
+      Slack Technologies, Inc.
+    </p>
   </description>
 
   <launchable type="desktop-id">com.slack.Slack.desktop</launchable>
 
   <screenshots>
     <screenshot environment="gnome:dark" type="default">
+      <caption>The Slack main window, on GNOME in dark mode</caption>
       <image type="source">https://raw.githubusercontent.com/flathub/com.slack.Slack/master/screenshots/gnome-dark.png</image>
     </screenshot>
     <screenshot environment="gnome">
+      <caption>The Slack main window, on GNOME in light mode</caption>
       <image type="source">https://raw.githubusercontent.com/flathub/com.slack.Slack/master/screenshots/gnome-light.png</image>
     </screenshot>
   </screenshots>
@@ -67,29 +78,25 @@
   <releases>
     <release version="4.37.77" date="2024-02-12">
       <description>
-        <p>Bug Fixes:</p>
+        <p>Bug Fixes</p>
         <ul>
-          <li>Don’t mind us—just making a few small adjustments to keep the app in tip-top
-          shape. More to come soon. Cheerio!</li>
+          <li>Don’t mind us—just making a few small adjustments to keep the app in tip-top shape. More to come soon. Cheerio!</li>
         </ul>
       </description>
     </release>
     <release version="4.36.140" date="2024-01-24">
       <description>
-        <p>Bug Fixes:</p>
+        <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
     <release version="4.36.138" date="2024-01-16">
       <description>
-        <p>Bug Fixes:</p>
+        <p>Bug Fixes</p>
         <ul>
-          <li>All bugs that were fixed in this release were too small for the eye to see or
-          too fiddly for human words to describe. Nevertheless, work was done, things
-          tinkered with and the app became subtly better.</li>
+          <li>All bugs that were fixed in this release were too small for the eye to see or too fiddly for human words to describe. Nevertheless, work was done, things tinkered with and the app became subtly better.</li>
         </ul>
       </description>
     </release>
@@ -103,10 +110,9 @@
     </release>
     <release version="4.36.134" date="2023-12-11">
       <description>
-        <p>Bug Fixes:</p>
+        <p>Bug Fixes</p>
         <ul>
-          <li>We don’t have anything in particular to call out for this release, but we thank
-          you for staying up to date all the same.</li>
+          <li>We don’t have anything in particular to call out for this release, but we thank you for staying up to date all the same.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -134,8 +140,7 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Changes are afoot when it comes to updating the Linux app. Should you run into
-          any problems, our Help Center article is your friend.</li>
+          <li>Changes are afoot when it comes to updating the Linux app. Should you run into any problems, our Help Center article is your friend.</li>
         </ul>
       </description>
       <url>https://slack.com/help/articles/360048367814-Update-the-Slack-desktop-app#linux-3</url>
@@ -144,19 +149,16 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Changes are afoot when it comes to updating the Linux app. Should you run into
-          any problems, our Help Center article is your friend.</li>
+          <li>Changes are afoot when it comes to updating the Linux app. Should you run into any problems, our Help Center article is your friend.</li>
         </ul>
       </description>
       <url>https://slack.com/help/articles/360048367814-Update-the-Slack-desktop-app#linux-3</url>
     </release>
     <release version="4.35.121" date="2023-10-24">
       <description>
-        <p>Bug Fixes:</p>
+        <p>Bug Fixes</p>
         <ul>
-          <li>All bugs that were fixed in this release were too small for the eye to see or
-          too fiddly for human words to describe. Nevertheless, work was done, things
-          tinkered with and the app became subtly better.</li>
+          <li>All bugs that were fixed in this release were too small for the eye to see or too fiddly for human words to describe. Nevertheless, work was done, things tinkered with and the app became subtly better.</li>
         </ul>
       </description>
     </release>
@@ -180,24 +182,20 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Starting with Slack for Linux version 4.34, a new code signing key will be
-          used. Our Help Center has the new instructions on signature verification.</li>
+          <li>Starting with Slack for Linux version 4.34, a new code signing key will be used. Our Help Center has the new instructions on signature verification.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>Linux users on Wayland noticed that screensharing in huddles would crash the
-          app as soon as sharing ended. No good deed goes unpunished, they say. We're working
-          to change that to "No bad bug goes unfixed." Please resume sharing with impunity.</li>
+          <li>Linux users on Wayland noticed that screensharing in huddles would crash the app as soon as sharing ended. No good deed goes unpunished, they say. We're working to change that to "No bad bug goes unfixed." Please resume sharing with impunity.</li>
         </ul>
       </description>
       <url>https://slack.com/help/articles/115004809166-Verify-Slack-for-Linux--beta--package-signatures</url>
     </release>
     <release version="4.33.90" date="2023-08-14">
       <description>
-        <p>Bug Fixes:</p>
+        <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
@@ -209,10 +207,8 @@
         </ul>
         <p>Coming Soon</p>
         <ul>
-          <li>We’ll be using a new code signing key starting from release 4.34 to verify
-          Slack for Linux package signatures.</li>
-          <li>On Sept. 1, we’ll be deprecating support for some older operating systems and
-          outdated versions of Slack. Please visit our Help Center to get all the details.</li>
+          <li>We’ll be using a new code signing key starting from release 4.34 to verify Slack for Linux package signatures.</li>
+          <li>On Sept. 1, we’ll be deprecating support for some older operating systems and outdated versions of Slack. Please visit our Help Center to get all the details.</li>
         </ul>
       </description>
       <url>https://slack.com/help/articles/115004809166-Verify-Slack-for-Linux--beta--package-signatures</url>
@@ -222,13 +218,8 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>Intelligent quips often contain depth of thought, but that's not what we mean
-          when we say that smartquotes were presenting a problem for deep links. Punctuation
-          will no longer affect the punctuality of your deep link updates.</li>
-          <li>Good governance is all about removing roadblocks, which is why we've retooled
-          the sign-in flow for GovSlack. Now when you sign in to a government workspace for
-          the first time, we'll automatically restart the app in Gov mode (instead of kicking
-          you back to the login page). Your Slack dollars at work!</li>
+          <li>Intelligent quips often contain depth of thought, but that's not what we mean when we say that smartquotes were presenting a problem for deep links. Punctuation will no longer affect the punctuality of your deep link updates.</li>
+          <li>Good governance is all about removing roadblocks, which is why we've retooled the sign-in flow for GovSlack. Now when you sign in to a government workspace for the first time, we'll automatically restart the app in Gov mode (instead of kicking you back to the login page). Your Slack dollars at work!</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -240,8 +231,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
@@ -249,10 +239,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>For some users, a successful connection to VPN resulted in an unsuccessful
-          connection of Slack to the internet, which of course made working in Slack
-          impossible. We’ve set you up for success once again by successfully fixing this
-          issue.</li>
+          <li>For some users, a successful connection to VPN resulted in an unsuccessful connection of Slack to the internet, which of course made working in Slack impossible. We’ve set you up for success once again by successfully fixing this issue.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -264,19 +251,12 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Organizations will be able to manage Slack desktop client settings during
-          rollout and ongoing operations. Configurations can be deployed with industry
-          standard tooling: Group Policies on Windows, user preferences profiles on Mac and
-          with configuration files on Linux.</li>
+          <li>Organizations will be able to manage Slack desktop client settings during rollout and ongoing operations. Configurations can be deployed with industry standard tooling: Group Policies on Windows, user preferences profiles on Mac and with configuration files on Linux.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>Those of you who love approaching meetings with all the mystery of a blind date
-          no doubt enjoyed our recent bug where huddle invitations wouldn’t say which
-          workspace or channel they came from. Everyone else thought this was weird and
-          confusing, so we fixed it.</li>
-          <li>Using the shortcut Ctrl + Shift + F will now toggle to Fullscreen mode,
-          allowing you to really take in the view (or just focus a bit more).</li>
+          <li>Those of you who love approaching meetings with all the mystery of a blind date no doubt enjoyed our recent bug where huddle invitations wouldn’t say which workspace or channel they came from. Everyone else thought this was weird and confusing, so we fixed it.</li>
+          <li>Using the shortcut Ctrl + Shift + F will now toggle to Fullscreen mode, allowing you to really take in the view (or just focus a bit more).</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -289,9 +269,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>“What is this—a video player for ants?” YouTube videos embedded in Slack can
-          now be expanded to play in full-screen mode, which we’re told is at least three
-          times bigger.</li>
+          <li>“What is this—a video player for ants?” YouTube videos embedded in Slack can now be expanded to play in full-screen mode, which we’re told is at least three times bigger.</li>
         </ul>
       </description>
     </release>
@@ -308,17 +286,12 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>On Sept. 1, we’ll be deprecating support for some older operating systems and
-          outdated versions of Slack. Please visit our Help Center to get all the details.</li>
-          <li>Starting with Slack for Linux version 4.28, a new code signing key will be
-          used. Our Help Center has the new instructions on signature verification.</li>
+          <li>On Sept. 1, we’ll be deprecating support for some older operating systems and outdated versions of Slack. Please visit our Help Center to get all the details.</li>
+          <li>Starting with Slack for Linux version 4.28, a new code signing key will be used. Our Help Center has the new instructions on signature verification.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>Trying to capture your screen with a third-party app while also sharing your
-          screen in Slack may have resulted in the non-Slack app crashing. We’d like to say
-          that this was because the idea of “capture” is antithetical to “sharing,” but in
-          truth it was just a “bug.”</li>
+          <li>Trying to capture your screen with a third-party app while also sharing your screen in Slack may have resulted in the non-Slack app crashing. We’d like to say that this was because the idea of “capture” is antithetical to “sharing,” but in truth it was just a “bug.”</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -332,8 +305,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
@@ -341,14 +313,8 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>You may have noticed that with this release there’s a new, larger number at the
-          end of the version string. Going forward, while you’ll still see the numbers laid
-          out in a [MAJOR.MINOR.BUILD] sequence, the “Build” numbers will now correspond to
-          specific builds on our end as opposed to a small sequential number. TL;DR: A few
-          more numbers for you, a bit more specificity for everyone.</li>
-          <li>We’ve added the most common Apple and Microsoft file extensions to our approved
-          list so you won’t be asked to confirm each time you open a Word doc or Keynote
-          presentation. Are you sure you’d like one less approval? YES/NO</li>
+          <li>You may have noticed that with this release there’s a new, larger number at the end of the version string. Going forward, while you’ll still see the numbers laid out in a [MAJOR.MINOR.BUILD] sequence, the “Build” numbers will now correspond to specific builds on our end as opposed to a small sequential number. TL;DR: A few more numbers for you, a bit more specificity for everyone.</li>
+          <li>We’ve added the most common Apple and Microsoft file extensions to our approved list so you won’t be asked to confirm each time you open a Word doc or Keynote presentation. Are you sure you’d like one less approval? YES/NO</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -356,8 +322,7 @@
         </ul>
         <p>Coming Soon</p>
         <ul>
-          <li>We’ll be using a new code signing key starting from release 4.28 to verify
-          Slack for Linux package signatures.</li>
+          <li>We’ll be using a new code signing key starting from release 4.28 to verify Slack for Linux package signatures.</li>
         </ul>
       </description>
       <url>https://slack.com/intl/en-ca/help/articles/115004809166-Verify-Slack-for-Linux--beta--package-signatures</url>
@@ -366,9 +331,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>If you tried to re-download a file that was already present in your Downloads
-          folder, the app would pretend to download it again without actually producing a new
-          file. Duplicitous duplication was never part of the plan—sorry about that.</li>
+          <li>If you tried to re-download a file that was already present in your Downloads folder, the app would pretend to download it again without actually producing a new file. Duplicitous duplication was never part of the plan—sorry about that.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -380,8 +343,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We’ve tinkered with the internal workings and polished some rough edges. The
-          app is now better than it was.</li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
         </ul>
       </description>
     </release>
@@ -389,17 +351,11 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Starting today, you’ll see a confirmation pop-up when a link in Slack is
-          prompting another program to open. If you don’t want to see these each time because
-          you enjoy living on the edge, just check the box “Always open files of this type.”</li>
+          <li>Starting today, you’ll see a confirmation pop-up when a link in Slack is prompting another program to open. If you don’t want to see these each time because you enjoy living on the edge, just check the box “Always open files of this type.”</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>We discovered that under very specific circumstances (stars being aligned,
-          barometric pressure being just so, looking in a mirror and saying “Slackbot” 3
-          times), Active Directory users were ending up with a backslash in their Home
-          directory, which was preventing the app from launching. However it happened, all
-          slashes are welcome at the party, so Slack will run as expected now.</li>
+          <li>We discovered that under very specific circumstances (stars being aligned, barometric pressure being just so, looking in a mirror and saying “Slackbot” 3 times), Active Directory users were ending up with a backslash in their Home directory, which was preventing the app from launching. However it happened, all slashes are welcome at the party, so Slack will run as expected now.</li>
         </ul>
       </description>
     </release>
@@ -408,9 +364,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>Perhaps you wanted to know which version of the app you had installed. Maybe we
-          gave you an option to copy that version number to your clipboard. It’s possible the
-          “Copy” button did nothing at all. One might say we fixed it.</li>
+          <li>Perhaps you wanted to know which version of the app you had installed. Maybe we gave you an option to copy that version number to your clipboard. It’s possible the “Copy” button did nothing at all. One might say we fixed it.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -422,12 +376,8 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>If you are someone who moved your app data directory and were using a symlink,
-          you may have noticed that Slack would fail to open beyond the initial launch. Well,
-          now it won’t do that anymore. We fixed it, you see.</li>
-          <li>Some external URLs were occasionally launching within the Slack app window, but
-          will now load in your default web browser, as is proper. Slack cannot have a little
-          web page, even as a treat.</li>
+          <li>If you are someone who moved your app data directory and were using a symlink, you may have noticed that Slack would fail to open beyond the initial launch. Well, now it won’t do that anymore. We fixed it, you see.</li>
+          <li>Some external URLs were occasionally launching within the Slack app window, but will now load in your default web browser, as is proper. Slack cannot have a little web page, even as a treat.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -439,9 +389,7 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Starting with Slack for Linux version 4.22.0, a new code signing key will be
-          used. Please visit our Help Center article for new instructions on signature
-          verification.</li>
+          <li>Starting with Slack for Linux version 4.22.0, a new code signing key will be used. Please visit our Help Center article for new instructions on signature verification.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -458,8 +406,7 @@
         </ul>
         <p>Coming Soon</p>
         <ul>
-          <li>A new way to verify package signatures for Linux - We’ll soon be using a new
-          code signing key to verify Slack for Linux package signatures.</li>
+          <li>A new way to verify package signatures for Linux - We’ll soon be using a new code signing key to verify Slack for Linux package signatures.</li>
         </ul>
       </description>
       <url>https://slack.com/intl/en-ca/help/articles/115004809166-Verify-Slack-for-Linux--beta--package-signatures</url>
@@ -468,19 +415,12 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>When opening SSH, FTP, SFTP or SMB links, you’ll now see the option to allow
-          all future URLs from just that same domain instead of the whole wide world. A
-          little more secure for us, a little more peace of mind for you.</li>
+          <li>When opening SSH, FTP, SFTP or SMB links, you’ll now see the option to allow all future URLs from just that same domain instead of the whole wide world. A little more secure for us, a little more peace of mind for you.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>We fixed a crash that was occurring on certain Linux clients, as studies have
-          shown that Slack works better when it doesn’t sporadically quit without warning.</li>
-          <li>Certain versions of the app were not correctly changing availability to “Away”
-          after 10 minutes of inactivity. While this has been fixed, we’d like to remind you
-          that you can use your Custom Status to let your teammates know your whereabouts
-          beyond simply Active or Away. Examples include: walking the dog, catching up after
-          PTO, taking a mental break, or tweeting nice things to the Slack social media team.</li>
+          <li>We fixed a crash that was occurring on certain Linux clients, as studies have shown that Slack works better when it doesn’t sporadically quit without warning.</li>
+          <li>Certain versions of the app were not correctly changing availability to “Away” after 10 minutes of inactivity. While this has been fixed, we’d like to remind you that you can use your Custom Status to let your teammates know your whereabouts beyond simply Active or Away. Examples include: walking the dog, catching up after PTO, taking a mental break, or tweeting nice things to the Slack social media team.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -492,8 +432,7 @@
       <description>
         <p>Security Guidance</p>
         <ul>
-          <li>This release includes significant security improvements. Updating is strongly
-          recommended.</li>
+          <li>This release includes significant security improvements. Updating is strongly recommended.</li>
         </ul>
       </description>
     </release>
@@ -501,9 +440,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>Certain menus were not being properly translated when switching languages in
-          the app. You know what they say about menus — they’re most helpful when you can
-          read them.</li>
+          <li>Certain menus were not being properly translated when switching languages in the app. You know what they say about menus — they’re most helpful when you can read them.</li>
         </ul>
       </description>
     </release>
@@ -511,8 +448,7 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Bigger is better, or rather, closer is clearer. We now support additional zoom
-          levels up to 200% to reduce the strain on your precious peepers.</li>
+          <li>Bigger is better, or rather, closer is clearer. We now support additional zoom levels up to 200% to reduce the strain on your precious peepers.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -524,9 +460,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>Images and notifications were sometimes sharing real estate...inelegantly. We
-          have given them both a talking-to, and they have agreed to joint custody of that
-          section of the screen.</li>
+          <li>Images and notifications were sometimes sharing real estate...inelegantly. We have given them both a talking-to, and they have agreed to joint custody of that section of the screen.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -546,10 +480,8 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We improved the restart experience when you’ve gone offline or are having
-          loading issues.</li>
-          <li>We all have to sign out sometimes. If you sign out of all of your workspaces,
-          you should have an easier time signing back in.</li>
+          <li>We improved the restart experience when you’ve gone offline or are having loading issues.</li>
+          <li>We all have to sign out sometimes. If you sign out of all of your workspaces, you should have an easier time signing back in.</li>
         </ul>
         <p>Security Guidance</p>
         <ul>
@@ -561,11 +493,8 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>When you move or resize Slack, we assume you are indeed trying to move or
-          resize it — and so the crash that was regularly happening, instead, was unwelcome.
-          We’ve fixed this. Here’s to properly-sized screens!</li>
-          <li>We’ve fixed several accessibility issues. Making Slack more accessible is a
-          continuous journey, and we’re quite grateful that you’re along for the ride!</li>
+          <li>When you move or resize Slack, we assume you are indeed trying to move or resize it — and so the crash that was regularly happening, instead, was unwelcome. We’ve fixed this. Here’s to properly-sized screens!</li>
+          <li>We’ve fixed several accessibility issues. Making Slack more accessible is a continuous journey, and we’re quite grateful that you’re along for the ride!</li>
         </ul>
       </description>
     </release>
@@ -573,8 +502,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tweaked some things too small to notice or too difficult to explain. We’ll
-          return you to your regular, more interesting types of release next time (we hope).</li>
+          <li>We tweaked some things too small to notice or too difficult to explain. We’ll return you to your regular, more interesting types of release next time (we hope).</li>
         </ul>
       </description>
     </release>
@@ -582,8 +510,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
@@ -595,8 +522,7 @@
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>As a dancer gracefully recovers from a minor tumble, so shall our app
-          gracefully reload whilst throttled by network failures.</li>
+          <li>As a dancer gracefully recovers from a minor tumble, so shall our app gracefully reload whilst throttled by network failures.</li>
         </ul>
       </description>
     </release>
@@ -604,8 +530,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We’ve tinkered with the internal workings and polished some rough edges. The
-          app is now better than it was.</li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
         </ul>
       </description>
     </release>
@@ -613,8 +538,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tweaked some things too small to notice or too difficult to explain. We’ll
-          return you to your regular, more interesting types of release next time (we hope).</li>
+          <li>We tweaked some things too small to notice or too difficult to explain. We’ll return you to your regular, more interesting types of release next time (we hope).</li>
         </ul>
       </description>
     </release>
@@ -622,8 +546,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
@@ -631,8 +554,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We’ve tinkered with the internal workings and polished some rough edges. The
-          app is now better than it was.</li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
         </ul>
       </description>
     </release>
@@ -640,12 +562,9 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We fixed some issues that caused window resizing of Slack to be difficult. We
-          never want to be difficult.</li>
-          <li>Quickly switching workspaces caused problems. Switching workspaces should only
-          cause opportunities, so we fixed that.</li>
-          <li>There were a few little bugs that caused crashes, like bugs do. We fixed those,
-          and we’ll fix the next ones too.</li>
+          <li>We fixed some issues that caused window resizing of Slack to be difficult. We never want to be difficult.</li>
+          <li>Quickly switching workspaces caused problems. Switching workspaces should only cause opportunities, so we fixed that.</li>
+          <li>There were a few little bugs that caused crashes, like bugs do. We fixed those, and we’ll fix the next ones too.</li>
         </ul>
       </description>
     </release>
@@ -653,8 +572,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is
-          now running smoothly again.</li>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
         </ul>
       </description>
     </release>
@@ -662,13 +580,9 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>In rare cases, Slack would simply fail to start altogether. While we’re sure we
-          could all use a coffee break, we know you could also use an application that runs.
-          So we fixed that.</li>
-          <li>We made the screen you see when you have connection problems more useful. We
-          also spruced it up a bit with a fresh coat of paint.</li>
-          <li>Our notifications system sprung a leak, so we brought it in for a tune-up.
-          Everything should be running smoother now.</li>
+          <li>In rare cases, Slack would simply fail to start altogether. While we’re sure we could all use a coffee break, we know you could also use an application that runs. So we fixed that.</li>
+          <li>We made the screen you see when you have connection problems more useful. We also spruced it up a bit with a fresh coat of paint.</li>
+          <li>Our notifications system sprung a leak, so we brought it in for a tune-up. Everything should be running smoother now.</li>
         </ul>
       </description>
     </release>
@@ -676,28 +590,16 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>A preference that allows you to choose a unique save location per download,
-          instead of choosing a folder for all of them. For the choosy types.</li>
-          <li>We’ve upgraded all the backend stuff that the apps run on, resulting in better
-          performance and fewer bugs.</li>
-          <li>Our spell checker has been swapped out for a newer model that’s faster, leaner,
-          and capable of fixing your typos in… wait, can this be right? “Multiple languages
-          at the same time”! Open the “Language &amp; Region” preferences to choose your
-          languages. And for whoever it is out there requires that functionality: our hats
-          are off to you. We can barely type in one language right now.</li>
+          <li>A preference that allows you to choose a unique save location per download, instead of choosing a folder for all of them. For the choosy types.</li>
+          <li>We’ve upgraded all the backend stuff that the apps run on, resulting in better performance and fewer bugs.</li>
+          <li>Our spell checker has been swapped out for a newer model that’s faster, leaner, and capable of fixing your typos in… wait, can this be right? “Multiple languages at the same time”! Open the “Language &amp; Region” preferences to choose your languages. And for whoever it is out there requires that functionality: our hats are off to you. We can barely type in one language right now.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>After restoring the app window, some parts of it could lose their clickiness.
-          Those parts have found their clickiness anew. Click away. Clickety clickety click.</li>
-          <li>If you found yourself, in some distant past, trying to start a song on Spotify
-          with your keyboard’s play button, and it did not respond to your command while
-          Slack was front and center, pesky hardware media keys were the problem. And this
-          version is the cure.</li>
-          <li>The app should be less spicy to your CPU when you’re viewing certain network
-          error pages.</li>
-          <li>When a download completes, we’ll show an in-app prompt rather than a bothersome
-          system notification.</li>
+          <li>After restoring the app window, some parts of it could lose their clickiness. Those parts have found their clickiness anew. Click away. Clickety clickety click.</li>
+          <li>If you found yourself, in some distant past, trying to start a song on Spotify with your keyboard’s play button, and it did not respond to your command while Slack was front and center, pesky hardware media keys were the problem. And this version is the cure.</li>
+          <li>The app should be less spicy to your CPU when you’re viewing certain network error pages.</li>
+          <li>When a download completes, we’ll show an in-app prompt rather than a bothersome system notification.</li>
         </ul>
       </description>
     </release>
@@ -705,8 +607,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We’ve tinkered with the internal workings and polished some rough edges. The
-          app is now better than it was.</li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
         </ul>
       </description>
     </release>
@@ -714,9 +615,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We're always working on performance improvements - and this release repairs a
-          previously broken performance diagnostic tool. You won't notice a difference, but
-          we'll have an easier time improving Slack.</li>
+          <li>We're always working on performance improvements - and this release repairs a previously broken performance diagnostic tool. You won't notice a difference, but we'll have an easier time improving Slack.</li>
         </ul>
       </description>
     </release>
@@ -724,8 +623,7 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>Fixed: If you zoom way in or zoom way out, and then open the About Slack
-          window, the About Slack window would also be zoomed way in/out.</li>
+          <li>Fixed: If you zoom way in or zoom way out, and then open the About Slack window, the About Slack window would also be zoomed way in/out.</li>
         </ul>
       </description>
     </release>
@@ -733,17 +631,13 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>We've tinkered with the internal workings and polished some rough edges. The
-          app is now better than it was.</li>
+          <li>We've tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>Slack would sometimes crash when the user right-clicked to see the context
-          menu. In context, that was unhelpful. So it no longer does that.</li>
-          <li>When maximized, the app had developed a bit of a distracting flicker. That
-          flicker is now part of Slack history.</li>
-          <li>Occasionally, a restart would result in connectivity issues for Slack… now you
-          should be back online and back to work lickety-split.</li>
+          <li>Slack would sometimes crash when the user right-clicked to see the context menu. In context, that was unhelpful. So it no longer does that.</li>
+          <li>When maximized, the app had developed a bit of a distracting flicker. That flicker is now part of Slack history.</li>
+          <li>Occasionally, a restart would result in connectivity issues for Slack… now you should be back online and back to work lickety-split.</li>
         </ul>
       </description>
     </release>
@@ -751,24 +645,15 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Our newest, fastest, best-performing, shiniest, most nutritious and delicious
-          version of Slack is now fully rolled out, so that’s the one you’re now using.
-          Brilliant.</li>
-          <li>Like zooming in and out? Use a numpad? Great news. You can now do these things,
-          on that.</li>
+          <li>Our newest, fastest, best-performing, shiniest, most nutritious and delicious version of Slack is now fully rolled out, so that’s the one you’re now using. Brilliant.</li>
+          <li>Like zooming in and out? Use a numpad? Great news. You can now do these things, on that.</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>Notifications looked weird if your workspace name was long. Now, no matter your
-          team name, notifications look lovely.</li>
-          <li>Some messages were being marked as read when Slack was hidden behind
-          applications, or not visible on screen. Now we won’t mark it as read until you’ve
-          actually seen it. Which seems fair.</li>
-          <li>In Linux some components of the app were displaying menus when menus were not
-          required. These items are now officially off-menu. Or rather, the menu is now
-          officially off-them.</li>
-          <li>By popular demand (and because it was a bug), the --silent option is now
-          available to silence terminal output.</li>
+          <li>Notifications looked weird if your workspace name was long. Now, no matter your team name, notifications look lovely.</li>
+          <li>Some messages were being marked as read when Slack was hidden behind applications, or not visible on screen. Now we won’t mark it as read until you’ve actually seen it. Which seems fair.</li>
+          <li>In Linux some components of the app were displaying menus when menus were not required. These items are now officially off-menu. Or rather, the menu is now officially off-them.</li>
+          <li>By popular demand (and because it was a bug), the --silent option is now available to silence terminal output.</li>
         </ul>
       </description>
     </release>
@@ -778,11 +663,8 @@
         <ul>
           <li>Receiving a gif in a notification could mess with your notifications.</li>
           <li>Long workspace names now no longer appear as incredibly long in menus.</li>
-          <li>Slack menus should now be showing up at the right language (meaning the one
-          that is right for you).</li>
-          <li>Spellchecker stopped working for a small count of users, leading to a shorp
-          uptick in avoidabull erratz. With spellcheck now fully back online for those users,
-          any remaining typos are officially not our fault.</li>
+          <li>Slack menus should now be showing up at the right language (meaning the one that is right for you).</li>
+          <li>Spellchecker stopped working for a small count of users, leading to a shorp uptick in avoidabull erratz. With spellcheck now fully back online for those users, any remaining typos are officially not our fault.</li>
           <li>Restarting when clearing cache now works again.</li>
         </ul>
       </description>
@@ -791,20 +673,13 @@
       <description>
         <p>What’s New</p>
         <ul>
-          <li>Thanks to a few tweaks to the engine, a polish of the pistons, and recalibrated
-          valves, the app should be running smoother and faster, than before.</li>
-          <li>Spellcheck, revamped, is now a much better version of its old self (and back on
-          Linux, to boot) — now it supports Greek, Portuguese and British English. So now
-          spelling correctly should come more naturally to us all (which is good, because
-          “correctly” can be a difacult word to spell).</li>
+          <li>Thanks to a few tweaks to the engine, a polish of the pistons, and recalibrated valves, the app should be running smoother and faster, than before.</li>
+          <li>Spellcheck, revamped, is now a much better version of its old self (and back on Linux, to boot) — now it supports Greek, Portuguese and British English. So now spelling correctly should come more naturally to us all (which is good, because “correctly” can be a difacult word to spell).</li>
         </ul>
         <p>Bug Fixes</p>
         <ul>
-          <li>For a quicker connection, and less frustration, checking for network
-          connectivity is more reliable than it was before.</li>
-          <li>After uploading a video into Slack some found it would give an infinite circle
-          of loading, but not play, which was never our plan. Now: it works! It plays; no
-          more circle! Because, it turned out, all circ and no play made Slack a null ‘ploy.</li>
+          <li>For a quicker connection, and less frustration, checking for network connectivity is more reliable than it was before.</li>
+          <li>After uploading a video into Slack some found it would give an infinite circle of loading, but not play, which was never our plan. Now: it works! It plays; no more circle! Because, it turned out, all circ and no play made Slack a null ‘ploy.</li>
         </ul>
       </description>
     </release>
@@ -812,16 +687,10 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>Videos in channels were found to be the cause of a minor (but pesky) memory
-          leak that has now been well and truly plugged.</li>
-          <li>We spruced up the notifications a little so now they'll not only show up every
-          time you need them to, they'll show up looking like whatever theme you wear proudly
-          on your sidebar. Neat.</li>
-          <li>On opening your computer, the app is now, thankfully, more likely to launch
-          properly every time.</li>
-          <li>If you'd become used to opening Slack from a shortcut on your desktop or menu…
-          you'll know that we broke that recently. Sorry about that. It is now unbroken once
-          more.</li>
+          <li>Videos in channels were found to be the cause of a minor (but pesky) memory leak that has now been well and truly plugged.</li>
+          <li>We spruced up the notifications a little so now they'll not only show up every time you need them to, they'll show up looking like whatever theme you wear proudly on your sidebar. Neat.</li>
+          <li>On opening your computer, the app is now, thankfully, more likely to launch properly every time.</li>
+          <li>If you'd become used to opening Slack from a shortcut on your desktop or menu… you'll know that we broke that recently. Sorry about that. It is now unbroken once more.</li>
         </ul>
       </description>
     </release>
@@ -829,18 +698,104 @@
       <description>
         <p>Bug Fixes</p>
         <ul>
-          <li>We’ve tinkered with the internal workings and polished some rough edges. The
-          app is now better than it was.</li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
         </ul>
       </description>
     </release>
-    <release version="4.0.0" date="2019-07-08"/>
-    <release version="3.4.2" date="2019-05-23"/>
-    <release version="3.4.0" date="2019-04-18"/>
-    <release version="3.3.8" date="2019-03-12"/>
-    <release version="3.3.7" date="2019-01-16"/>
-    <release version="3.3.3" date="2018-10-02"/>
-    <release version="3.3.1" date="2018-08-31"/>
-    <release version="3.2.1" date="2018-05-31"/>
+    <release version="4.0.0" date="2019-07-08">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>Slack is now a little faster, thanks to a few small but important changes.</li>
+        </ul>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Drag and dropping files into Slack is now much more stable.</li>
+          <li>If you ever do need to reset the app's data, it now works better. A bit better, at least.</li>
+          <li>We improved team icons alignment in the side bar for those in a lot of workspaces. It's a small thing, but much more aesthetically pleasing.</li>
+          <li>In a Cinnamon desktop environment, the Snap Slack app was missing a dock icon. We found it and put it back where it belongs. (In the dock.)</li>
+          <li>Hardware acceleration can now be turned off without foregrounding Slack. If you know what that means, you'll know it's handy. If you don't — it still is! Carry on. And thank you for reading.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.4.2" date="2019-05-23">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Just as day follows night and winter gives way to spring, so have we updated Electron to 4.2.1</li>
+          <li>The push notification time between desktop and mobile has been changed for the better</li>
+          <li>Like stability? Us too. So we tweaked things, and now everything is more stable. In our app.</li>
+          <li>We've updated the RPM icon dependency for a better availability &amp; icon experience. Because you're worth it.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.4.0" date="2019-04-18">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Launch (and Hide) on Login have been improved and are now just … better.The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
+          <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that.</li>
+          <li>Pressing 'Control+Shift+V' would cause copied text to paste twice. We've fixed that. In Slack.</li>
+          <li>Some teams were experiencing an issue where icons that belonged to other signed-in teams were showing up rather than their own. This was deeply confusing. Sorry about that.</li>
+          <li>Unhelpful keyboard and cursor actions that some people were experiencing have now, thankfully, been fixed</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.8" date="2019-03-12">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>When you sign in, you'll now sign in through the browser rather than within the app</li>
+        </ul>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>The new loading animation was a little stretched, or a little squished, depending on how you looked at it. It's now practically perfect.</li>
+          <li>Occasionally, the "Open the Slack App" browser button was not opening the workspace in the desktop app. Silly, really. It now does.</li>
+          <li>If you use SSO (Single Sign-on) to log in, it should now work perfectly every time</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.7" date="2019-01-16">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>From today, you'll notice a shiny new app button that matches our new logo. You can read more about it on our blog at SlackHQ.com. Change! Everyone loves it. (Having said that, nothing about Slack or how you use it has changed. Just the button.)</li>
+        </ul>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Users signing in with Single Sign-On would see the same message twice when logging in</li>
+          <li>Users signing in with Single Sign-On would see the same message twice when logging in. This will not happen any more.</li>
+          <li>When trying to select a portion of a code-formatted block of text (text formatted with ` or ``` at either end), some characters were proving slippery and hard to select. No more.</li>
+          <li>The desktop app was not playing nicely with the glibc 2.28. If you were experiencing a segfault, you should segfault no more. It's better now.</li>
+          <li>The full screen shortcut was mistakenly listed as ‘Ctrl+F’ instead of ‘Ctrl+Shift+F’ in the "View" menu. We both apologize for this and also hope that, because of it, someone out there discovered 'Ctrl+F' is a useful shortcut for searching the channel that you're in. Always look on the bright side of bugs.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.3" date="2018-10-02">
+      <description>
+        <ul>
+          <li>All updates are important, of course. This one contains security updates, and as we know, they’re the most important kind of all.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.1" date="2018-08-31">
+      <description>
+        <ul>
+          <li>Overall, stability has been improved, thanks to a veritable bevy of bugfixes</li>
+          <li>It's so very useful when you report issues that we've tweaked the diagnostics that collect reports so that we can get to them, and to things being better for you, sooner</li>
+          <li>There was an annoying flickering caused by the color profiles having been updated in 3.2.0. There is, as far as we can tell, no more flicker.</li>
+          <li>When you download something, we will now more dependably tell you so</li>
+          <li>Duplicate windows were leading to dubious repetitious notifications if multiple instances of the aforementioned were open simultaneously. We've fixed them so that the overt duplicity of multiplicities no longer incurs incongruity. TL;DR: No more doublespeak. If you have multiple windows open, you'll now only be notified once. </li>
+          <li>We’ve tinkered with the internal workings and polished some rough edges. The app is now better than it was.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.1" date="2018-05-31">
+      <description>
+        <ul>
+          <li>If you use Red Hat, you now have spell check. For other distros, you have a new and different spellchecker. Hopefully it is better at detecting what language you are writing in. Hopefully.</li>
+        </ul>
+      </description>
+    </release>
   </releases>
 </component>
