@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.37.84" date="2024-02-21">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>Menus are key to accessibility, so we’ve added a new keystroke to open the app’s main menu. Pressing the Alt button will now expand the menu immediately (where before it would merely focus your cursor on that section). We hope this small change helps you maintain some focus of your own within Slack.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.37.77" date="2024-02-12">
       <description>
         <p>Bug Fixes</p>
