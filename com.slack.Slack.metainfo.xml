@@ -3,7 +3,7 @@
 <component type="desktop-application">
   <id>com.slack.Slack</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <developer id="slack.com">
+  <developer id="com.slack">
     <name>Slack Technologies Inc.</name>
   </developer>
   <project_group>Slack Technologies Inc.</project_group>
@@ -56,13 +56,13 @@
   </provides>
 
   <supports>
-    <control>keyboard</control>
-    <control>pointing</control>
     <control>touch</control>
-    <display_length compare="ge">768</display_length>
   </supports>
 
   <requires>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <display_length compare="ge">768</display_length>
     <internet bandwidth_mbitps="2">always</internet>
   </requires>
 
