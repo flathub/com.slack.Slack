@@ -76,6 +76,7 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.37.93" date="2024-03-13"/>
     <release version="4.37.84" date="2024-02-21">
       <description>
         <p>What’s New</p>
