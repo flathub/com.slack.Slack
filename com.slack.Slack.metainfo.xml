@@ -822,4 +822,9 @@
       </description>
     </release>
   </releases>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#7e547e</color>
+    <color type="primary" scheme_preference="dark">#4a154b</color>
+  </branding>
 </component>
