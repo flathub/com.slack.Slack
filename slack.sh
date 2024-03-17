@@ -2,7 +2,7 @@
 
 WAYLAND_SOCKET=${WAYLAND_DISPLAY:-"wayland-0"}
 
-EXTRA_ARGS='--enable-features=WebRTCPipeWireCapturer'
+EXTRA_ARGS='--enable-features=WebRTCPipeWireCapturer --disable-gpu-sandbox'
 
 if [[ -e "${XDG_RUNTIME_DIR}/${WAYLAND_SOCKET}" ]]
 then
