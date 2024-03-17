@@ -3,7 +3,7 @@
 <component type="desktop-application">
   <id>com.slack.Slack</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <developer id="slack.com">
+  <developer id="com.slack">
     <name>Slack Technologies Inc.</name>
   </developer>
   <project_group>Slack Technologies Inc.</project_group>
@@ -56,13 +56,13 @@
   </provides>
 
   <supports>
-    <control>keyboard</control>
-    <control>pointing</control>
     <control>touch</control>
-    <display_length compare="ge">768</display_length>
   </supports>
 
   <requires>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <display_length compare="ge">768</display_length>
     <internet bandwidth_mbitps="2">always</internet>
   </requires>
 
@@ -76,6 +76,30 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.37.94" date="2024-03-14">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Nothing major to report this week. Nothing minor to report either, as it turns out. Work is still happening, mind you—it’s just more the sort that happens behind the curtain in between scenes at a play. We’re quietly setting the stage for what’s to come.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="4.37.93" date="2024-03-13">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>The app is objectively better today than it was yesterday. This is a scientifically verifiable fact that cannot be challenged or undermined. We appreciate you staying up to date!</li>
+        </ul>
+      </description>
+    </release>
+    <release version="4.37.84" date="2024-02-21">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>Menus are key to accessibility, so we’ve added a new keystroke to open the app’s main menu. Pressing the Alt button will now expand the menu immediately (where before it would merely focus your cursor on that section). We hope this small change helps you maintain some focus of your own within Slack.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.37.77" date="2024-02-12">
       <description>
         <p>Bug Fixes</p>
@@ -798,4 +822,9 @@
       </description>
     </release>
   </releases>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#7e547e</color>
+    <color type="primary" scheme_preference="dark">#4a154b</color>
+  </branding>
 </component>

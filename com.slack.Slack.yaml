@@ -49,8 +49,8 @@ modules:
       - /share/man
     sources:
       - type: archive
-        url: https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.3.tar.xz
-        sha256: 9a3e2571f1048035d80238f52c8760125884a43baf8a580fedb7250c1ad0a9e7
+        url: https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.4.tar.xz
+        sha256: 163d08d783be6d4ab9a979ceb5a4fecbc1d9660d3c34168c581301cd53912b20
 
   - name: lsb_release
     buildsystem: simple
@@ -83,9 +83,9 @@ modules:
       - type: extra-data
         filename: slack.snap
         only-arches: [x86_64]
-        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_134.snap
-        sha256: c70255a14f21bb2acca10bf4ec028b4af592f7990b3742c60258e04eed576f45
-        size: 123138048
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_139.snap
+        sha256: 880dd26821035990d54392905290b066222c63cb949efbbe2ac957805fb7d499
+        size: 123101184
         x-checker-data:
           type: snapcraft
           name: slack
