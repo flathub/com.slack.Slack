@@ -89,7 +89,7 @@ modules:
         x-checker-data:
           type: snapcraft
           name: slack
-          channel: beta
+          channel: stable
       - type: file
         path: com.slack.Slack.metainfo.xml
       - type: file
