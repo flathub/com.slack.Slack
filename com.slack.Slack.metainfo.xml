@@ -76,6 +76,18 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.37.101" date="2024-04-11">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Nothing to report this time. Well, nothing that you can see, but plenty going on under the surface. We’re working hard to make Slack better; this time it’s not so visible.</li>
+        </ul>
+        <p>Security Guidance</p>
+        <ul>
+          <li>This release includes minor security improvements. Updating is beneficial.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.37.94" date="2024-03-14">
       <description>
         <p>Bug Fixes</p>
