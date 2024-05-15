@@ -76,6 +76,22 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.38.121" date="2024-05-09">
+      <description>
+        <p>Security Guidance</p>
+        <ul>
+          <li>This release includes security improvements. Updating is recommended.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="4.38.115" date="2024-04-23">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>Say hi to Slack AI! Our brand-new set of generative AI tools lets you search smarter, summarize conversations instantly, and much more. Head over to the Help Center to see how you can put Slack AI to work for you: https://slack.com/help/articles/25076892548883-Introducing--Slack-AI</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.37.101" date="2024-04-11">
       <description>
         <p>Bug Fixes</p>
