@@ -1,27 +1,20 @@
-This repo contains a working version of the slack x86-64 app packaged as a flatpak.
+# Slack
 
-The app builds on uses the freedesktop.org runtime and the
-[electron-flatpak-base-app](https://github.com/endlessm/electron-flatpak-base-app).
-You will need both to build the app; they are available for install on Flathub.
+Slack is a messaging app for business that connects people to the information they need.
 
-## Accessing `$HOME`
+This repo hosts the flatpak wrapper for [Slack](https://slack.com/), available at [Flathub](https://flathub.org/apps/details/com.slack.Slack).
 
-This app is sandboxed for higher security. If you absolutely need `$HOME` access for your Slack on your system, please use either 
 ```sh
-$ flatpak run --filesystem=home com.slack.Slack
+flatpak install flathub com.slack.Slack
+flatpak run com.slack.Slack
 ```
-to run Slack with temporary home access, or
+
+### Wayland
+
+This package enables the flags to run on Wayland, however it is opt-in. To opt-in run:
+
 ```sh
-$ sudo flatpak override --filesystem=home com.slack.Slack
+flatpak override --user --socket=wayland com.slack.Slack
 ```
-to permanently set `~/` access for Slack.
 
-## I'm having incorrect timezone on messages
-
-The timezone should be automatically detected, but seems to not be for some users. You can use 
-```
-$ sudo flatpak override --env=TZ=[TIMEZONE] com.slack.Slack
-```
-to manually set the timezone for your Slack installation, where `[TIMEZONE]` is the [TZ database name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). 
-
-For example `$ sudo flatpak override --env=TZ=Australia/Perth com.slack.Slack`.
+To opt-out do the same with `--nosocket=wayland`.

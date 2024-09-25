@@ -1,0 +1,106 @@
+app-id: com.slack.Slack
+base: org.electronjs.Electron2.BaseApp
+base-version: '24.08'
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+command: com.slack.Slack
+separate-locales: false
+finish-args:
+  - --device=all
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
+  - --share=ipc
+  - --share=network
+  - --socket=pulseaudio
+  - --socket=x11
+
+  # Filesystems
+  - --filesystem=xdg-download
+
+  # D-Bus Access
+  - --talk-name=com.canonical.AppMenu.Registrar
+  - --talk-name=org.freedesktop.Notifications
+  - --talk-name=org.freedesktop.ScreenSaver
+  - --talk-name=org.freedesktop.secrets
+  - --talk-name=org.kde.StatusNotifierWatcher
+  - --talk-name=org.kde.kwalletd5
+  - --talk-name=org.kde.kwalletd6
+
+  # System D-Bus Access
+  - --system-talk-name=org.freedesktop.UPower
+  - --system-talk-name=org.freedesktop.login1
+modules:
+  - shared-modules/lzo/lzo.json
+  - shared-modules/squashfs-tools/squashfs-tools.json
+
+  - name: libsecret
+    buildsystem: meson
+    config-opts:
+      # Context on disabling crypto: https://gitlab.gnome.org/GNOME/libsecret/-/issues/58
+      - -Dcrypto=disabled
+      - -Dgtk_doc=false
+      - -Dintrospection=false
+      - -Dmanpage=false
+      - -Dvapi=false
+    cleanup:
+      - /bin
+      - /include
+      - /lib/pkgconfig
+      - /share/man
+    sources:
+      - type: archive
+        url: https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.4.tar.xz
+        sha256: 163d08d783be6d4ab9a979ceb5a4fecbc1d9660d3c34168c581301cd53912b20
+
+  - name: lsb_release
+    buildsystem: simple
+    cleanup:
+      - /share/man
+    build-commands:
+      - make
+      - make install INSTALL_ROOT=${FLATPAK_DEST}
+    sources:
+      - type: git
+        url: https://github.com/thkukuk/lsb-release_os-release.git
+        tag: v3.3
+
+  - name: slack
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 apply_extra ${FLATPAK_DEST}/bin
+      - install -Dm644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - install -Dm644 slack.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - install -Dm755 slack.sh ${FLATPAK_DEST}/bin/${FLATPAK_ID}
+      - install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
+
+      - desktop-file-edit --remove-key="StartupNotify" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+
+      # Edit desktop file to remap to our ${FLATPAK_ID}.
+      - desktop-file-edit --set-icon="${FLATPAK_ID}" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="Exec" --set-value="${FLATPAK_ID} %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+    sources:
+      - type: extra-data
+        filename: slack.snap
+        only-arches: [x86_64]
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_158.snap
+        sha256: a9f57cf85ad55758d91529f141ddeb3eb63ee5f900f6a3eca9ca3639bd2e0ce6
+        size: 124420096
+        x-checker-data:
+          type: snapcraft
+          name: slack
+          channel: stable
+      - type: file
+        path: com.slack.Slack.metainfo.xml
+      - type: file
+        path: slack.desktop
+      - type: file
+        path: slack.sh
+      - type: file
+        path: slack.svg
+      - type: script
+        dest-filename: apply_extra
+        commands:
+          - unsquashfs -quiet -no-progress slack.snap usr/lib/slack
+          - mv squashfs-root/usr/lib/slack/* .
+          - rm -r squashfs-root slack.snap
