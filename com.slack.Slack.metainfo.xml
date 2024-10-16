@@ -76,6 +76,19 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.40.133" date="2024-10-10">
+      <description>
+        <p>Security Guidance</p>
+        <ul>
+          <li>This release includes minor security improvements. Updating is beneficial.</li>
+        </ul>
+        <p>Coming Soon</p>
+        <ul>
+          <li>We’ll be using a new code signing key starting with release 4.41 to verify Slack for Linux package signatures. Our Help Center has the new instructions on signature verification.</li>
+        </ul>
+      </description>
+      <url>https://slack.com/help/articles/115004809166-Verify-Slack-for-Linux--beta--package-signatures</url>
+    </release>
     <release version="4.39.95" date="2024-07-29">
       <description>
         <p>Bug Fixes</p>
