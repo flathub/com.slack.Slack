@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.41.90" date="2024-10-08">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Thanks for updating the app! This round’s changes don’t lend themselves to tidy summaries, but we’re doing all that we can to make sure the app is running as smoothly as possible. Here’s to incremental gains!</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.40.128" date="2024-09-12">
       <description>
         <p>Bug Fixes</p>
