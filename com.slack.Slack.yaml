@@ -83,9 +83,9 @@ modules:
       - type: extra-data
         filename: slack.snap
         only-arches: [x86_64]
-        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_173.snap
-        sha256: 601816f9c5b785e499d9e6908cf566fd42cf7a058c7e410c9540eeb17213efa4
-        size: 127713280
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_174.snap
+        sha256: 9b8565dd0685f9f82429242c2897cb5da58ea567f488379d4d7f0ce6211f493c
+        size: 127655936
         x-checker-data:
           type: snapcraft
           name: slack
