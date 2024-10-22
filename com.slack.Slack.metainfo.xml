@@ -76,6 +76,15 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.41.96" date="2024-10-22">
+      <description>
+        <p>What’s New</p>
+        <ul>
+          <li>Starting with Slack for Linux version 4.41, a new code signing key will be used. Our Help Center has the new instructions on signature verification.</li>
+        </ul>
+      </description>
+      <url>https://slack.com/help/articles/115004809166-Verify-Slack-for-Linux--beta--package-signatures</url>
+    </release>
     <release version="4.41.92" date="2024-10-16">
       <description>
         <p>Bug Fixes</p>
