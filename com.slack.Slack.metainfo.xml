@@ -32,10 +32,6 @@
       simpler, more pleasant, and more productive. We hope you’ll give Slack a
       try.
     </p>
-    <p>
-      NOTE: This wrapper is not verified by, affiliated with, or supported by
-      Slack Technologies, Inc.
-    </p>
   </description>
 
   <launchable type="desktop-id">com.slack.Slack.desktop</launchable>
