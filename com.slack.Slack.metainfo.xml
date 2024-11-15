@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.41.98" date="2024-11-14">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>We tuned up the engine and gave the interiors a thorough clean. Everything is now running smoothly again.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.41.97" date="2024-11-07">
       <description>
         <p>Bug Fixes</p>
