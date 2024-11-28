@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.41.104" date="2024-11-27">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Hard work is happening this week, but nothing we can easily describe. It’s like a duck swimming on a pond. Under the water, the duck is paddling furiously, but on top all that can be seen is the gentle gliding of a bird on water. This week, Slack is the duck.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.41.98" date="2024-11-14">
       <description>
         <p>Bug Fixes</p>
