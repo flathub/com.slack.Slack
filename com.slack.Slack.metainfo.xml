@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.41.105" date="2024-12-05">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>No big fixes to call out this week, but rest assured, there will be more in the future. Not that introducing bugs is our aim, of course. But missteps, adjustments, errors, and corrections — these are the rhythms of life and the price of growth. We hope you’re enjoying the ride, no matter where you happen to find yourself at present.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.41.104" date="2024-11-27">
       <description>
         <p>Bug Fixes</p>
