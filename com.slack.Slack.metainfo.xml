@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.42.115" date="2025-01-15">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Like a runner steadily improving their split times, this update is the sort that’s less showy but no less important. You’ll find the app a little faster, a little leaner, a little closer to the goal.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.41.105" date="2024-12-05">
       <description>
         <p>Bug Fixes</p>
