@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.43.43" date="2025-03-10">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>We tidied the shelves, cleaned the windows and ran a white-gloved finger over every flat surface. Just a little routine maintenance to ensure that everything is shipshape. Full steam ahead!</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.41.105" date="2024-12-09">
       <description>
         <p>Bug Fixes</p>
