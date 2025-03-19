@@ -78,14 +78,15 @@ modules:
       # Edit desktop file to remap to our ${FLATPAK_ID}.
       - desktop-file-edit --set-icon="${FLATPAK_ID}" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Exec" --set-value="${FLATPAK_ID} %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop"
+        ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: extra-data
         filename: slack.snap
         only-arches: [x86_64]
-        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_188.snap
-        sha256: 0002856b4d0b42227b03cbe7891c72cf6dea24ed2510cf1b1d5c15f461481f01
-        size: 129552384
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_194.snap
+        sha256: 052e6371212fe9243e30df2c2ad904d0bad4caf07a5aa3da561116f85df5faa1
+        size: 129609728
         x-checker-data:
           type: snapcraft
           name: slack
