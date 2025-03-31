@@ -76,6 +76,22 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.43.51" date="2025-03-31">
+      <description>
+        <p>Security Guidance</p>
+        <ul>
+          <li>This release includes security improvements. Updating is recommended.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="4.43.49" date="2025-03-24">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>We’ve sanded down some rough patches in the app so as to avoid any digital splinters. Did you know "digital splinters" were a thing? They are now, but they aren’t anything you’ll need to worry about.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.43.43" date="2025-03-10">
       <description>
         <p>Bug Fixes</p>
