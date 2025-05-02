@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.44.59" date="2025-05-02">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Ever have those weeks when it feels like nothing’s happening, but then you look back later and realize a lot of things actually were happening? This is one of those weeks for the app.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.43.52" date="2025-04-17">
       <description>
         <p>Bug Fixes</p>
