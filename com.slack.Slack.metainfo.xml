@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.44.60" date="2025-05-14">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>The app is objectively better today than it was yesterday. This is a scientifically verifiable fact that cannot be challenged or undermined. We appreciate you staying up to date!</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.44.59" date="2025-05-02">
       <description>
         <p>Bug Fixes</p>
