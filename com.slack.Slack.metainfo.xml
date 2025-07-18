@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.45.64" date="2025-07-18">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>This week’s is not a huge update, but let that not convince you it’s unimportant. They can’t all be red-letter days (or updates), but each day we’re here is a good one. This update is a good one too.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.44.60" date="2025-05-14">
       <description>
         <p>Bug Fixes</p>
