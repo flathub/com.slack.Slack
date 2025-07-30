@@ -74,19 +74,21 @@ modules:
       - install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
 
       - desktop-file-edit --remove-key="StartupNotify" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - desktop-file-edit --set-key="X-GNOME-UsesNotifications" --set-value="true" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="X-GNOME-UsesNotifications" --set-value="true"
+        ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
       # Edit desktop file to remap to our ${FLATPAK_ID}.
       - desktop-file-edit --set-icon="${FLATPAK_ID}" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Exec" --set-value="${FLATPAK_ID} %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop"
+        ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: extra-data
         filename: slack.snap
         only-arches: [x86_64]
-        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_209.snap
-        sha256: 7b36fb3a4aedae6728ae06be5aaf2e13f6229ec906a96ebaf53be0a0db1326c8
-        size: 134471680
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_210.snap
+        sha256: df12749fdba596af7aa9ad6cd594f79dcb3a051eb4692ebaaf39e2dfb8041fe7
+        size: 134594560
         x-checker-data:
           type: snapcraft
           name: slack
