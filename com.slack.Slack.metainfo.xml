@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.46.95" date="2025-09-05">
+      <description>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>We cleaned the code to make sure that everything’s running smoothly. Slack — now with a streak-free shine.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.45.64" date="2025-07-18">
       <description>
         <p>Bug Fixes</p>
