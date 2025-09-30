@@ -76,6 +76,14 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.46.99" date="2025-09-22">
+      <description>
+        <p>Security Guidance</p>
+        <ul>
+          <li>This release includes security improvements. Updating is recommended.</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.45.69" date="2025-08-19">
       <description>
         <p>Security Guidance</p>
