@@ -76,6 +76,9 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
+    <release version="4.46.99" date="2025-10-08">
+      <description></description>
+    </release>
     <release version="4.46.101" date="2025-10-01">
       <description>
         <p>Bug Fixes</p>
