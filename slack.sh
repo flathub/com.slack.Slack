@@ -4,7 +4,7 @@ WAYLAND_SOCKET=${WAYLAND_DISPLAY:-"wayland-0"}
 
 EXTRA_ARGS='--enable-features=WebRTCPipeWireCapturer'
 
-if [[ -e "${XDG_RUNTIME_DIR}/${WAYLAND_SOCKET}" || -e "${WAYLAND_DISPLAY}" || ${XDG_SESSION_TYPE:-} == "wayland" ]]
+if [[ -e "${XDG_RUNTIME_DIR}/${WAYLAND_SOCKET}" || -e "${WAYLAND_DISPLAY}" ]]
 then
     EXTRA_ARGS="${EXTRA_ARGS} --enable-wayland-ime --wayland-text-input-version=3"
 
