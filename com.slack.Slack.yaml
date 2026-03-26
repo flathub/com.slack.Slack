@@ -86,4 +86,4 @@ modules:
           - unsquashfs -quiet -no-progress slack.snap usr/lib/slack
           - mv squashfs-root/usr/lib/slack/* .
           - rm -r squashfs-root slack.snap
-          - FLATPAK_ID=com.slack.Slack patch-desktop-filename resources/app.asar
+          - patch-electron-desktop-filename --desktop-filename com.slack.Slack --skip-integrity-check resources/app.asar
