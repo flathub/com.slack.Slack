@@ -12,7 +12,8 @@ finish-args:
   - --share=ipc
   - --share=network
   - --socket=pulseaudio
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
 
   # Filesystems
   - --filesystem=xdg-download
@@ -54,19 +55,21 @@ modules:
       - install -Dm644 slack.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
 
       - desktop-file-edit --remove-key="StartupNotify" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - desktop-file-edit --set-key="X-GNOME-UsesNotifications" --set-value="true" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="X-GNOME-UsesNotifications" --set-value="true"
+        ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
       # Edit desktop file to remap to our ${FLATPAK_ID}.
       - desktop-file-edit --set-icon="${FLATPAK_ID}" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key="Exec" --set-value="${FLATPAK_ID} %U" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop" ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - desktop-file-edit --set-key="X-Flatpak-RenamedFrom" --set-value="slack.desktop"
+        ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: extra-data
         filename: slack.snap
         only-arches: [x86_64]
-        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_216.snap
-        sha256: 92f65b6748a9332a139af5901a33610869ae176c530212462eb38d9a2daf7fd1
-        size: 135163904
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_244.snap
+        sha256: 6082191fe4748da9bd1ab101cd6b8e6b083700ebd089ed9c867d5767979ae87f
+        size: 138014720
         x-checker-data:
           type: snapcraft
           name: slack
