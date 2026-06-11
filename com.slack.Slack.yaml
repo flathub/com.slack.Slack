@@ -67,9 +67,9 @@ modules:
       - type: extra-data
         filename: slack.snap
         only-arches: [x86_64]
-        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_244.snap
-        sha256: 6082191fe4748da9bd1ab101cd6b8e6b083700ebd089ed9c867d5767979ae87f
-        size: 138014720
+        url: https://api.snapcraft.io/api/v1/snaps/download/JUJH91Ved74jd4ZgJCpzMBtYbPOzTlsD_250.snap
+        sha256: c108ef40a6284e761228aec21d120ed63e9e6fdba7d283e6bb986acbbcbbf014
+        size: 145342464
         x-checker-data:
           type: snapcraft
           name: slack
@@ -88,4 +88,5 @@ modules:
           - unsquashfs -quiet -no-progress slack.snap usr/lib/slack
           - mv squashfs-root/usr/lib/slack/* .
           - rm -r squashfs-root slack.snap
-          - patch-electron-desktop-filename --desktop-filename com.slack.Slack --skip-integrity-check resources/app.asar
+          - patch-electron-desktop-filename --desktop-filename com.slack.Slack --skip-integrity-check
+            resources/app.asar
