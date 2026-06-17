@@ -76,8 +76,11 @@
 
   <!-- Contents are from https://slack.com/release-notes/linux -->
   <releases>
-    <release version="4.50.136" date="2026-06-04">
+    <release version="4.50.141" date="2026-06-17">
       <description></description>
+    </release>
+    <release version="4.50.136" date="2026-06-04">
+      <description/>
     </release>
     <release version="4.50.121" date="2026-05-06">
       <description/>
