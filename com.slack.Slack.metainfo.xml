@@ -15,7 +15,6 @@
   <url type="help">https://get.slack.help</url>
 
   <description>
-    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Slack Technologies, Inc.**</p>	  
     <p>
       Caution: Slack for Linux is in beta. We’re still busy adding features and
       ironing out potential issues.
