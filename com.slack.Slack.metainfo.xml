@@ -7,7 +7,7 @@
     <name>Slack Technologies Inc.</name>
   </developer>
   <project_group>Slack Technologies Inc.</project_group>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>LicenseRef-proprietary=https://slack.com/terms-of-service/user</project_license>
   <name>Slack</name>
   <summary>Business communication</summary>
 
